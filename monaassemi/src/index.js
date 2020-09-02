@@ -1,12 +1,8 @@
 // Import React and React Dom
 import React from 'react';
 import ReactDOM from 'react-dom'
+import App from './App'
 
-
-// Create React Component
-const App = () => {
-return <div>Mona Assemi</div>;
-};
 
 // Take the react component and print to screen
 ReactDOM.render(
