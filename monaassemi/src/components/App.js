@@ -1,4 +1,8 @@
 import React from 'react';
-export default () => {
+
+
+const App =  () => {
     return <h1>Mona Assemi</h1>
 }
+
+export default App;
