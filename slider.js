@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React, { useState, useEffect, useRef } from 'react'
-import { css, jsx } from '@emotion/core'
+import { css, jsx } from 'liquid'
 import SliderContent from './SliderContent'
 import Slide from './Slide'
 import Arrow from './Arrow'
