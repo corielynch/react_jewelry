@@ -1,3 +1,4 @@
-# react_jewelry
 
-- so far just the carosel input...but we might want to do the sliders
+## kathleen's branch updates/uses
+- so far just the carousel template is in app.js...
+- the template sliders in in all the other js' i could create a directory on github main page which is odd. 
