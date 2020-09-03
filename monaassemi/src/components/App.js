@@ -7,6 +7,7 @@ import ShopPage from './pages/Shop-Page';
 const App =  () => {
     return (
         <div>
+            <header>Insert nav here when we know the CSS framework we want to use.</header>
             <BrowserRouter>
                 <div>
                     <Route path='/' exact component={ShopPage} />
