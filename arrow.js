@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from 'react'
-import { css, jsx } from '@emotion/core'
+import { css, jsx } from 'liquid'
 import leftArrow from '../img/left-arrow.svg'
 import rightArrow from '../img/right-arrow.svg'
 
