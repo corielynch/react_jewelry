@@ -3,11 +3,12 @@ import{BrowserRouter, Route, Link} from 'react-router-dom';
 import OrderPage from './pages/Order-Page';
 import ProductPage from './pages/Product-Page';
 import ShopPage from './pages/Shop-Page';
+import Nav from './layouts/nav'
 
 const App =  () => {
     return (
         <div>
-            <header>Insert nav here when we know the CSS framework we want to use.</header>
+            <Nav />
             <BrowserRouter>
                 <div>
                     <Route path='/' exact component={ShopPage} />
