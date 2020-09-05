@@ -22,6 +22,46 @@ class Nav extends Component {
     </div>
   </nav>
 
+/*
+  <Nav className="justify-content-center" activeKey="/home">
+    <Nav.Item>
+      <Nav.Home href="/home">HOME</Nav.Home>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Shop eventKey="/shop">SHOP</Nav.Shop>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.About eventKey="/about">ABOUT</Nav.About>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Lookbook eventKey="/lookbook">LOOKBOOK</Nav.Lookbook>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Contact eventKey="/contact">CONTACT</Nav.Contact>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Faq eventKey="/faq">FAQ</Nav.Faq>
+    </Nav.Item>
+    <Nav.Item>
+    <Nav.Item>
+      <Nav.Mobile eventKey="mobile.html">Mobile</Nav.Mobile>
+    </Nav.Item>
+    </Nav.Item>
+  </Nav>
+*/
+
+<Navbar bg="light">
+    <Navbar.Brand href="#home">
+      <img
+        src="/brand-logo.png"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt="Monaassemi logo"
+      />
+    </Navbar.Brand>
+  </Navbar>
+
   <ul className="sidenav" id="mobile-demo">
     <li><a href="sass.html" className="black">Sass</a></li>
     <li><a href="badges.html" className="black">Components</a></li>
