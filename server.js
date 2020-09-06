@@ -1,21 +1,24 @@
-var mysql = require("mysql");
-var inquirer = require("inquirer");
+const express = require("express");
 
-var connection = mysql.createConnection({
-  host: "localhost",
+const mongoose = require("mongoose");
+const routes = require("./routes");
+const app = express();
+const PORT = process.env.PORT || 3001;
 
-  // Your port; if not 3306
-  port: 3306,
+// Define middleware here
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+// Add routes, both API and view
+app.use(routes);
 
-  // Your username
-  user: "root",
+// Connect to the Mongo DB
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/jewelry_db");
 
-  // Your password
-  password: "P@$$word",
-  database: "jewelry_db"
+// Start the API server
+app.listen(PORT, function() {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
-
-connection.connect(function(err) {
-  if (err) throw err;
-});
-
