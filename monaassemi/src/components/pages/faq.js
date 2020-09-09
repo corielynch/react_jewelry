@@ -1,6 +1,6 @@
 import React from 'react';
 
 const Faq = () => {
-    return <div>Home Pagee</div>
+    return <div>FAQ</div>
 }
 export default Faq;

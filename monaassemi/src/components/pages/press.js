@@ -1,6 +1,6 @@
 import React from 'react';
 
 const Press = () => {
-    return <div>Home Pagee</div>
+    return <div>Press</div>
 }
 export default Press;
