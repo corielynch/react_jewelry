@@ -1,7 +1,7 @@
-var mysql = require("mysql");
-var inquirer = require("inquirer");
+const mysql = require("mysql");
 
-var connection = mysql.createConnection({
+
+const connection = mysql.createConnection({
   host: "localhost",
 
   // Your port; if not 3306
@@ -11,6 +11,19 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password
-  password: "L@kers51",
-  database: "MonaAssemi"
+  password: "P@$$word",
+  database: "jewelry_db"
 });
+
+// Connect to the database
+connection.connect(function(err) {
+  if (err) {
+    console.error("error connecting: " + err.stack);
+    return;
+  }
+  console.log("connected as id " + connection.threadId);
+  connection.end();
+});
+
+// Export connection
+module.exports = connection;
