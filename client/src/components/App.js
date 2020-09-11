@@ -9,6 +9,9 @@ import Lookbook from './pages/Lookbook';
 import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Account from './pages/Account';
+import Header from './layouts/header';
+import ProductPage from './pages/Product-Page';
+
 
 import Nav from './layouts/nav'
 
@@ -16,10 +19,14 @@ class App extends React.Component {
     render(){
         return (
             <div>
-              <div></div>
+              
                 <BrowserRouter>
                 <div>
+                    <Header />
+                    <div>
                     <Nav />
+                    </div>
+                   
                 </div>
                     <div>
                         <Route path='/' exact component={Shop} />
@@ -30,6 +37,8 @@ class App extends React.Component {
                         <Route path='/Contact' exact component={Contact} />
                         <Route path='/FAQ' exact component={Faq} />
                         <Route path='/Account' exact component={Account} />
+                        <Route path='/product-page' exact component={ProductPage} />
+                        
                     </div>
                 </BrowserRouter>
             </div>
