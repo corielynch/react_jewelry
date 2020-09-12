@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
+<<<<<<< HEAD
+import { Link} from 'react-router-dom'
+
+=======
 import { render } from '@testing-library/react';
+>>>>>>> master
 
 class Nav extends Component {
   render(){
@@ -22,12 +27,16 @@ class Nav extends Component {
     </div>
   </nav>
 
+<<<<<<< HEAD
+
+=======
   <ul className="sidenav" id="mobile-demo">
     <li><a href="sass.html" className="black">Sass</a></li>
     <li><a href="badges.html" className="black">Components</a></li>
     <li><a href="collapsible.html" className="black">Javascript</a></li>
     <li><a href="mobile.html" >Mobile</a></li>
   </ul>
+>>>>>>> master
       </div>
     )
   }
@@ -35,46 +44,3 @@ class Nav extends Component {
   
   export default Nav;
   
-
-
-//   <nav>
-//   <div class="nav-wrapper">
-//     <a href="#!" class="brand-logo">Logo</a>
-//     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-//     <ul class="right hide-on-med-and-down">
-//       <li><a href="sass.html">Sass</a></li>
-//       <li><a href="badges.html">Components</a></li>
-//       <li><a href="collapsible.html">Javascript</a></li>
-//       <li><a href="mobile.html">Mobile</a></li>
-//     </ul>
-//   </div>
-// </nav>
-
-// <ul class="sidenav" id="mobile-demo">
-//   <li><a href="sass.html">Sass</a></li>
-//   <li><a href="badges.html">Components</a></li>
-//   <li><a href="collapsible.html">Javascript</a></li>
-//   <li><a href="mobile.html">Mobile</a></li>
-// </ul>
-// const Nav = () => {
-//   return (
-//       `{
-//     <div className="#">
-//         <a href="/" className="home">
-//         HomePage
-//         </a>
-//         <a href="/account" className="account">
-//         Account
-//         </a>
-//         <a href="/contact" className="contact">
-//         Contact
-//         </a>
-//         <a href="/faq" className="faq">
-//         Faq
-//         </a>
-//     </div>
-//   }`
-// )
-
-// export default Nav;
-
