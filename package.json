@@ -1,17 +1,21 @@
 {
   "name": "react_jewelry",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mona Assemi's online shopify website",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "client": "cd client && yarn start",
+    "dev": "concurrently -n 'server,client' \"nodemon server.js\" \"npm run client\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/corielynch/react_jewelry.git"
   },
-  "author": "",
+ 
+  "author": "Brandon Myhan, Kathleen Yoannon, Corie Lynch",
+ 
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/corielynch/react_jewelry/issues"
@@ -19,8 +23,12 @@
   "homepage": "https://github.com/corielynch/react_jewelry#readme",
   "dependencies": {
     "axios": "^0.20.0",
+ 
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.5"
+ 
+    "concurrently": "^5.3.0",
+ 
   }
 }
