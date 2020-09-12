@@ -1,6 +1,6 @@
 import React from 'react';
 
 const Lookbook = () => {
-    return <div>LookBook</div>
+    return <div>Home Pagee</div>
 }
 export default Lookbook;
