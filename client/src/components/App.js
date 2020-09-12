@@ -9,7 +9,7 @@ import Lookbook from './pages/Lookbook';
 import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Account from './pages/Account';
-import Header from './layouts/header';
+import Header from './layouts/header/header';
 import ProductPage from './pages/Product-Page';
 
 
@@ -21,14 +21,15 @@ class App extends React.Component {
             <div>
               
                 <BrowserRouter>
-                <div>
+                <div class="Header-Class">
                     <Header />
-                    <div>
-                    <Nav />
+                    <div class = "Nav-Class">
+                        <Nav />
                     </div>
-                   
+                    <br />
+                    <hr />
                 </div>
-                    <div>
+                    <div class="body-class">
                         <Route path='/' exact component={Shop} />
                         <Route path='/Home' exact component={Home} />
                         <Route path='/About' exact component={About} />

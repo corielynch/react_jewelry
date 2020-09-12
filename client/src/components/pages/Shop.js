@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from '../layouts/slider'
-import Product from '../layouts/product'
+import Product from '../layouts/product/product'
 
 const Shop = () => {
         return (

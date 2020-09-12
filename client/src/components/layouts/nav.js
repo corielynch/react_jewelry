@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link} from 'react-router-dom'
-// import { render } from '@testing-library/react';
+
 
 class Nav extends Component {
   render(){
@@ -21,12 +21,7 @@ class Nav extends Component {
     </div>
   </nav>
 
-  <ul className="sidenav" id="mobile-demo">
-    <li><Link to="sass.html" className="black">Sass</Link></li>
-    <li><Link to="badges.html" className="black">Components</Link></li>
-    <li><Link to="collapsible.html" className="black">Javascript</Link></li>
-    <li><Link to="mobile.html" >Mobile</Link></li>
-  </ul>
+
       </div>
     )
   }

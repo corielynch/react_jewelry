@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import { Link} from 'react-router-dom'
-import Searchbar from './searchbar'
+import Searchbar from '../searchbar/searchbar'
 import './header.css'
 
 class Header extends Component {
     render(){
         return(
-            <div>
-            <Searchbar />
-                <div class='header-class'>
-                    <input />
-                    <i class="material-icons">search</i>
+            <div class="header-class"> 
+                <div >
+                    <Searchbar />
+                </div>
+                <div class="header-logo">
                     <p>Mona Assemi Logo Here</p>
                 </div>
             </div> 
