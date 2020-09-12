@@ -46,27 +46,5 @@ class App extends React.Component {
             )
     }
 }
-// const App =  () => {
-//     return (
-//         <div>
-//           <div></div>
-//             <BrowserRouter>
-//             <div>
-//                 <Nav />
-//             </div>
-//                 <div>
-//                     <Route path='/' exact component={Shop} />
-//                     <Route path='/Home' exact component={Home} />
-//                     <Route path='/About' exact component={About} />
-//                     <Route path='/Press' exact component={Press} />
-//                     <Route path='/Lookbook' exact component={Lookbook} />
-//                     <Route path='/Contact' exact component={Contact} />
-//                     <Route path='/FAQ' exact component={Faq} />
-//                     <Route path='/Account' exact component={Account} />
-//                 </div>
-//             </BrowserRouter>
-//         </div>
-//         )
-// }
 
 export default App;
