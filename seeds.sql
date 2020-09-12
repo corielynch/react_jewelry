@@ -9,3 +9,9 @@ VALUES ("aries-gold-swarovski-crystal-ring", "Aries Gold and Swarovski Crystal R
 
 INSERT INTO products (handle, title, body, tags, price, img_src)
 VALUES ("taurus-silver-ring", "Taurus Silver Ring", "Taurus ring in plated silver Sizes: 9 10",	"Rings", 288, "https://cdn.shopify.com/s/files/1/0755/2497/products/ariesGold.png?v=1588459523");
+
+INSERT INTO products (handle, title, body, tags, price)
+VALUES ("aries-gold-swarovski-crystal-ring", "Aries Gold and Swarovski Crystal Ring	Aries", "ring in gold plated and Swarovski crystal","Rings", 288);
+
+INSERT INTO products (handle, title, body, tags, price)
+VALUES ("taurus-silver-ring", "Taurus Silver Ring", "Taurus ring in plated silver Sizes: 9 10",	"Rings", 288);
