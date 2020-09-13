@@ -19,22 +19,14 @@ const Product = () => {
                 <div class="content size">
                   <div class="name size-name">Size</div>
                     <div class="size-value">
-                      <span class="color">XS</span>
-                      <span class="color">S</span>
-                      <span class="active">M</span>
-                      <span class="color">L</span>
-                      <span class="color">XL</span>
+                      <span class="color">Custom sizes</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
     )
-    
-
-
 }
 export default Product;
 
