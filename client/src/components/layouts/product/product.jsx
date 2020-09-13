@@ -7,19 +7,31 @@ import './product.css'
 const Product = () => {
     return (
       <div>
-        <div class="container">
-          <div class="image">
+        <div className="container">
+          <div className="image">
             <img src="{product.img.src}" alt="{product description}"></img>
           </div>
-            <div class="card-content">
-              <div class="wrapper">
-                <div class="title">product.name</div>
+            <div className="card-content">
+              <div className="wrapper">
+                <div className="title">product.name</div>
                 <p>product.description</p>
+<<<<<<< HEAD:client/src/components/layouts/product/product.jsx
                 <span class="price">product.price</span>
                 <div class="content size">
                   <div class="name size-name">Size</div>
                     <div class="size-value">
                       <span class="color">Custom sizes</span>
+=======
+                <span className="price">product.price</span>
+                <div className="content size">
+                  <div className="name size-name">Size</div>
+                    <div className="size-value">
+                      <span className="color">XS</span>
+                      <span className="color">S</span>
+                      <span className="active">M</span>
+                      <span className="color">L</span>
+                      <span className="color">XL</span>
+>>>>>>> 20c287312acf0a71aa1e2684705407bac1ba0190:client/src/components/layouts/product/product.js
                     </div>
                   </div>
                 </div>
