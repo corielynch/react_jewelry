@@ -9,10 +9,10 @@ handle VARCHAR (500),
 title VARCHAR (500),
 body VARCHAR (500),
 tags VARCHAR (500),
-price INTEGER(200)
+price INTEGER(200),
+img_src VARCHAR (500)
 
 PRIMARY KEY ( `id` ) 
-
 
 );
 

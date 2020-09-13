@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { render } from '@testing-library/react';
+import { Link} from 'react-router-dom'
 
 class Nav extends Component {
   render(){
@@ -14,6 +14,7 @@ class Nav extends Component {
         <li><a href="/home" >HOME</a></li>
         <li><a href="/shop" >SHOP</a></li>
         <li><a href="/about"  >ABOUT</a></li>
+        <li><a href="/press"  >PRESS</a></li>
         <li><a href="/lookbook"  >LOOKBOOK</a></li>
         <li><a href="/contact"  >CONTACT</a></li>
         <li><a href="/faq"  >FAQ</a></li>
@@ -28,12 +29,14 @@ class Nav extends Component {
     <li><a href="collapsible.html" className="black">Javascript</a></li>
     <li><a href="mobile.html" >Mobile</a></li>
   </ul>
+
       </div>
     )
   }
 }
   
   export default Nav;
+<<<<<<< HEAD:client/src/components/layouts/nav.js
   
 
 
@@ -78,3 +81,6 @@ class Nav extends Component {
 
 // export default Nav;
 
+=======
+ 
+>>>>>>> 8fe4f48ec36c65f7c7ebe678a080fe42674fc9ca:client/src/components/layouts/nav/nav.jsx
