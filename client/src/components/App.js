@@ -38,12 +38,27 @@ import Switch from 'react-bootstrap/esm/Switch';
 class App extends React.Component {
     render(){
         return (
+<<<<<<< HEAD
             <div className="page-containter">
                 <div className="content-wrap">
                 <Router>
                     <Header />
                         <Nav />  
                     <Switch>
+=======
+            <div>
+              
+                <BrowserRouter>
+                <div className="Header-Class">
+                    <Header />
+                    <div className = "Nav-Class">
+                        <Nav />
+                    </div>
+                    <br />
+                    <hr />
+                </div>
+                    <div className="body-class">
+>>>>>>> 20c287312acf0a71aa1e2684705407bac1ba0190
                         <Route path='/' exact component={Shop} />
                         <Route path='/Home' exact component={Home} />
                         <Route path='/About' exact component={About} />
