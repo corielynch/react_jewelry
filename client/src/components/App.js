@@ -21,15 +21,15 @@ class App extends React.Component {
             <div>
               
                 <BrowserRouter>
-                <div class="Header-Class">
+                <div className="Header-Class">
                     <Header />
-                    <div class = "Nav-Class">
+                    <div className = "Nav-Class">
                         <Nav />
                     </div>
                     <br />
                     <hr />
                 </div>
-                    <div class="body-class">
+                    <div className="body-class">
                         <Route path='/' exact component={Shop} />
                         <Route path='/Home' exact component={Home} />
                         <Route path='/About' exact component={About} />

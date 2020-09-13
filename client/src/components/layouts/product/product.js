@@ -7,23 +7,23 @@ import './product.css'
 const Product = () => {
     return (
       <div>
-        <div class="container">
-          <div class="image">
+        <div className="container">
+          <div className="image">
             <img src="{product.img.src}" alt="{product description}"></img>
           </div>
-            <div class="card-content">
-              <div class="wrapper">
-                <div class="title">product.name</div>
+            <div className="card-content">
+              <div className="wrapper">
+                <div className="title">product.name</div>
                 <p>product.description</p>
-                <span class="price">product.price</span>
-                <div class="content size">
-                  <div class="name size-name">Size</div>
-                    <div class="size-value">
-                      <span class="color">XS</span>
-                      <span class="color">S</span>
-                      <span class="active">M</span>
-                      <span class="color">L</span>
-                      <span class="color">XL</span>
+                <span className="price">product.price</span>
+                <div className="content size">
+                  <div className="name size-name">Size</div>
+                    <div className="size-value">
+                      <span className="color">XS</span>
+                      <span className="color">S</span>
+                      <span className="active">M</span>
+                      <span className="color">L</span>
+                      <span className="color">XL</span>
                     </div>
                   </div>
                 </div>
