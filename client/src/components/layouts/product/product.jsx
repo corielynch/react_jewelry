@@ -15,23 +15,11 @@ const Product = () => {
               <div className="wrapper">
                 <div className="title">product.name</div>
                 <p>product.description</p>
-<<<<<<< HEAD:client/src/components/layouts/product/product.jsx
-                <span class="price">product.price</span>
-                <div class="content size">
-                  <div class="name size-name">Size</div>
-                    <div class="size-value">
-                      <span class="color">Custom sizes</span>
-=======
                 <span className="price">product.price</span>
                 <div className="content size">
                   <div className="name size-name">Size</div>
                     <div className="size-value">
-                      <span className="color">XS</span>
-                      <span className="color">S</span>
-                      <span className="active">M</span>
-                      <span className="color">L</span>
-                      <span className="color">XL</span>
->>>>>>> 20c287312acf0a71aa1e2684705407bac1ba0190:client/src/components/layouts/product/product.js
+                      <span className="color">Custom sizes</span>
                     </div>
                   </div>
                 </div>
@@ -43,22 +31,3 @@ const Product = () => {
 export default Product;
 
 
-// product card with materialize //
-  //       <div className="row">
-  //   <div className="col s12 m6">
-  //     <div className="card white darken-1">
-  //       <div className="card-content black-text">
-  //         <span className="card-title">Card Title</span>
-  //         <img src="{products.img.src}" alt="{products.description}"/>
-  //         <p>This is where we'll put product description.</p>
-  //       </div>
-  //       <div className="card-action">
-  //       <button>
-  //       <Link to="/product-page" >Buy Now</Link>
-  //       </button>
-         
-  
-  //       </div>
-  //     </div>
-  //   </div>
-  // </div>

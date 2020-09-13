@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from '../layouts/slider'
+import Slider from '../layouts/slider/slider'
 import Product from '../layouts/product/product'
 
 const Shop = () => {
