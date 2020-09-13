@@ -1,69 +1,44 @@
 import React from 'react';
-import{BrowserRouter, Route, Link} from 'react-router-dom';
-import OrderPage from './pages/Order-Page';
-import ProductPage from './pages/Product-Page';
-import ShopPage from './pages/Shop-Page';
-import Nav from './layouts/nav'
-
-const App =  () => {
-    return (
-        <div>
-            <Nav />
-            <BrowserRouter>
-                <div>
-                    <Route path='/' exact component={ShopPage} />
-                    <Route path='/product-page' exact component={ProductPage}></Route>
-                    <Route path='/order-page' exact component={OrderPage}></Route>
-                </div>
-            </BrowserRouter>
-        </div>
-        )
-}
-
-export default App;
-
 import{BrowserRouter, Route,} from 'react-router-dom';
-
+import * as ReactBootstrap from "react-bootstrap";
 import Shop from './pages/Shop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Press from './pages/Press';
 import Lookbook from './pages/Lookbook';
-import Contact from './pages/Contact';
-import Faq from './pages/Faq';
+import Header from './pages/Header';
+import FAQ from './pages/FAQ';
 import Account from './pages/Account';
-import Header from './layouts/header/header';
-import ProductPage from './pages/Product-Page';
-
 import Nav from './layouts/nav'
+import ProductPage from './pages/ProductPage';
+import Footer from './layouts/footer/footer';
+import Switch from 'react-bootstrap/esm/Switch';
 
 class App extends React.Component {
     render(){
         return (
-            <div>
+            <div className="page-containter">
+                <div className="content-wrap">
                 <BrowserRouter>
-                <div class="Header-Class">
                     <Header />
-                    <div class = "Nav-Class">
-                        <Nav />
-                    </div>
-                    <br />
-                    <hr />
-                </div>
-                    <div class="body-class">
+                        <Nav />  
+                    <Switch>
                         <Route path='/' exact component={Shop} />
                         <Route path='/Home' exact component={Home} />
                         <Route path='/About' exact component={About} />
                         <Route path='/Press' exact component={Press} />
                         <Route path='/Lookbook' exact component={Lookbook} />
+                        <Route path='/Header' exact component={Header} />
                         <Route path='/Contact' exact component={Contact} />
-                        <Route path='/FAQ' exact component={Faq} />
+                        <Route path='/FAQ' exact component={FAQ} />
                         <Route path='/Account' exact component={Account} />
                         <Route path='/product-page' exact component={ProductPage} />
-                    </div>
-                </BrowserRouter>
+                    </Switch>
+                    <Footer />
+            </BrowserRouter> 
             </div>
-            )
+        </div>      
+        )
     }
 }
 

@@ -14,6 +14,7 @@ class Nav extends Component {
         <li><a href="/home" >HOME</a></li>
         <li><a href="/shop" >SHOP</a></li>
         <li><a href="/about"  >ABOUT</a></li>
+        <li><a href="/press"  >PRESS</a></li>
         <li><a href="/lookbook"  >LOOKBOOK</a></li>
         <li><a href="/contact"  >CONTACT</a></li>
         <li><a href="/faq"  >FAQ</a></li>
