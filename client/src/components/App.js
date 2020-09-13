@@ -1,5 +1,5 @@
 import React from 'react';
-import{BrowserRouter, Route,} from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import * as ReactBootstrap from "react-bootstrap";
 import Shop from './pages/Shop';
 import Home from './pages/Home';
@@ -19,7 +19,7 @@ class App extends React.Component {
         return (
             <div className="page-containter">
                 <div className="content-wrap">
-                <BrowserRouter>
+                <Router>
                     <Header />
                         <Nav />  
                     <Switch>
@@ -35,7 +35,7 @@ class App extends React.Component {
                         <Route path='/product-page' exact component={ProductPage} />
                     </Switch>
                     <Footer />
-            </BrowserRouter> 
+            </Router> 
             </div>
         </div>      
         )
