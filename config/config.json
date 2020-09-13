@@ -1,12 +1,7 @@
 {
   "development": {
     "username": "root",
-<<<<<<< HEAD
-    "password": "Farm123#*",
-=======
     "password": "L@kers51",
-
->>>>>>> 20c287312acf0a71aa1e2684705407bac1ba0190
     "database": "jewelry_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
@@ -25,8 +20,4 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 20c287312acf0a71aa1e2684705407bac1ba0190

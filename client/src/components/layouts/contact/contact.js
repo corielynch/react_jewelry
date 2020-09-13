@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import './App.css'
+// import './App.css'
 
 class Contact extends React.Component{
   
