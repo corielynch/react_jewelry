@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-import * as ReactBootstrap from "react-bootstrap";
 import Shop from './pages/Shop';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -9,10 +8,9 @@ import Lookbook from './pages/Lookbook';
 import Header from './pages/Header';
 import FAQ from './pages/FAQ';
 import Account from './pages/Account';
-import Nav from './layouts/nav'
+import Nav from './layouts/nav';
 import ProductPage from './pages/ProductPage';
-import Footer from './layouts/footer/footer';
-import Switch from 'react-bootstrap/esm/Switch';
+import { FooterContainer } from '../containers/footer';
 
 class App extends React.Component {
     render(){
@@ -29,14 +27,13 @@ class App extends React.Component {
                         <Route path='/Press' exact component={Press} />
                         <Route path='/Lookbook' exact component={Lookbook} />
                         <Route path='/Header' exact component={Header} />
-                        <Route path='/Contact' exact component={Contact} />
                         <Route path='/FAQ' exact component={FAQ} />
                         <Route path='/Account' exact component={Account} />
                         <Route path='/product-page' exact component={ProductPage} />
                     </Switch>
-                    <Footer />
+                <FooterContainer />
             </Router> 
-            </div>
+        </div>
         </div>      
         )
     }

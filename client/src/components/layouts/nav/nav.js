@@ -11,13 +11,13 @@ class Nav extends Component {
       <a href="/home" className="brand-logo">Logo</a>
       <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
       <ul className="right hide-on-med-and-down">
-        <li><a href="/home" >HOME</a></li>
-        <li><a href="/shop" >SHOP</a></li>
-        <li><a href="/about"  >ABOUT</a></li>
-        <li><a href="/press"  >PRESS</a></li>
-        <li><a href="/lookbook"  >LOOKBOOK</a></li>
-        <li><a href="/contact"  >CONTACT</a></li>
-        <li><a href="/faq"  >FAQ</a></li>
+        <li><a href="/Home" >HOME</a></li>
+        <li><a href="/Shop" >SHOP</a></li>
+        <li><a href="/About"  >ABOUT</a></li>
+        <li><a href="/Press"  >PRESS</a></li>
+        <li><a href="/Lookbook"  >LOOKBOOK</a></li>
+        <li><a href="/Contact"  >CONTACT</a></li>
+        <li><a href="/FAQ"  >FAQ</a></li>
         <li><a href="mobile.html" >Mobile</a></li>
       </ul>
     </div>

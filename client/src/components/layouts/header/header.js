@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Searchbar from '../searchbar/searchbar'
 import './header.css'
 
@@ -11,7 +11,7 @@ class Header extends Component {
                     <Searchbar />
                 </div>
                 <div class="header-logo">
-                    <p>Mona Assemi Logo Here</p>
+                    <p> {Logo} </p>
                 </div>
             </div> 
         )

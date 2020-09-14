@@ -19,7 +19,7 @@ const Footer = () => {
             <h4>Contact</h4>
                 <ul className="list-unstyled">
                     <li>Email:mailto</li> 
-                    <li>Love to here from you</li> 
+                    <li>Love to hear from you</li> 
                 </ul> 
             </div>        
             {/* column3 */}
