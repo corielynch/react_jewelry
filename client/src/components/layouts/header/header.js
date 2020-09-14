@@ -6,12 +6,14 @@ import './header.css'
 class Header extends Component {
     render(){
         return(
-            <div className="header-class"> 
+
+            <div class="header-class"> 
                 <div >
                     <Searchbar />
                 </div>
-                <div className="header-logo">
-                    <p>Mona Assemi Logo Here</p>
+                <div class="header-logo">
+
+                    <p>{ Logo }</p>
                 </div>
             </div> 
         )
