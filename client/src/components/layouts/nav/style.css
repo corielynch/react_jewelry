@@ -1,0 +1,12 @@
+.nav-wrapper {
+    color: whitesmoke;
+    background-color: #ffd700;
+
+}
+
+.nav-wrapper {
+        list-style: none;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+}

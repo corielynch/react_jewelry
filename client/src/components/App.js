@@ -3,13 +3,13 @@ import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Shop from './pages/Shop';
 import Home from './pages/Home';
 import About from './pages/About';
-import Press from './pages/Press';
+import Press from './pages/press';
 import Lookbook from './pages/Lookbook';
 import Header from './pages/Header';
 import FAQ from './pages/FAQ';
 import Account from './pages/Account';
-import Nav from './layouts/nav';
-import ProductPage from './pages/ProductPage';
+import Nav from './layouts/nav/nav';
+import ProductPage from './pages/Product-Page';
 import { FooterContainer } from '../containers/footer';
 
 class App extends React.Component {

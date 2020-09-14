@@ -1,5 +1,4 @@
 import React from 'react';
-// import src from '*.bmp';
 import { Link} from 'react-router-dom'
 import './product.css'
 

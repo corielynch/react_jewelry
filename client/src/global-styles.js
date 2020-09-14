@@ -6,8 +6,8 @@ export const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         position: relative;
-        top: 300px;
-        background: #ffd700;
+        top: 5px;
+        background: white;
         font-family: 'Maven Pro', sans-serif;
     }
 `    

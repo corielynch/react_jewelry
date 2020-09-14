@@ -30,5 +30,3 @@ export function FooterContainer() {
         </Footer>    
     )
 }
-
-&copy;{new Date().getFullYear()} Mona Assemi Jewelry | All rights reserved | Terms of Service | Privacy

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     padding: 80px 60px;
-    background: radial-gradient(circle, rgb(255,255,255) 0%, rgb (255,215,0) 100%);
+    background: white;
 `
 export const Wrapper = styled.div`
     display: flex;
