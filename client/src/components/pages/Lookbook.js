@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Account = () => {
+const Lookbook = () => {
     return <div>Home Pagee</div>
 }
-export default Account;
+export default Lookbook;

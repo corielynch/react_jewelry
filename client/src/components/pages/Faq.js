@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Account = () => {
+const Faq = () => {
     return <div>Home Pagee</div>
 }
-export default Account;
+export default Faq;
