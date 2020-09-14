@@ -1,6 +1,8 @@
-import React, { Component } from 'react'
-import { Link} from 'react-router-dom'
+import React, { useState } from 'react'
+import { Button } from './Button'
+import { Link } from 'react-router-dom'
 import './style.css'
+import Dropdown from './Dropdown'
 
 class Nav extends Component {
   render(){

@@ -8,9 +8,10 @@ import Lookbook from './pages/Lookbook';
 import Header from './pages/Header';
 import FAQ from './pages/FAQ';
 import Account from './pages/Account';
-import Nav from './layouts/nav/nav';
+import Navbar from './pages/Navbar';
 import ProductPage from './pages/Product-Page';
 import { FooterContainer } from '../containers/footer';
+import SignUp from './pages/SignUp';
 
 class App extends React.Component {
     render(){
@@ -19,7 +20,7 @@ class App extends React.Component {
                 <div className="content-wrap">
                 <Router>
                     <Header />
-                        <Nav />  
+                        <Navbar />  
                     <Switch>
                         <Route path='/' exact component={Shop} />
                         <Route path='/Home' exact component={Home} />
@@ -29,6 +30,7 @@ class App extends React.Component {
                         <Route path='/Header' exact component={Header} />
                         <Route path='/FAQ' exact component={FAQ} />
                         <Route path='/Account' exact component={Account} />
+                        <Route path='/signup' exact component={SignUp} />
                         <Route path='/product-page' exact component={ProductPage} />
                     </Switch>
                 <FooterContainer />
