@@ -12,7 +12,7 @@ export function FooterContainer() {
                         <Footer.Link href="/search">Search</Footer.Link>
                         <Footer.Link href="#">Private Policy</Footer.Link>
                         <Footer.Link href="/shop">Shop</Footer.Link>
-                        <Footer.Link href="#"><Icon className="fab fa-copyright" />&copy;{new Date().getFullYear()}></Footer.Link>
+                        <Footer.Link href="#"><Icon className="fab fa-clock" />&copy;{new Date().getFullYear()}></Footer.Link>
                     </Footer.Column>
                     <Footer.Column>
                         <Footer.Title>Private Policy</Footer.Title>

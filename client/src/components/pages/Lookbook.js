@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Press = () => {
+const Lookbook = () => {
     return (
       <div>
           <hr />
         <div class="container">
             <div class="image">
-                <img src="{./img/press.png}" />
-                //press images//
+                <img src="{./icons/look.png}" />
+                //Lookbook images//
                 
             </div>
         </div>
@@ -15,4 +15,4 @@ const Press = () => {
     </div>
     )
 }
-export default Press;
+export default Lookbook;

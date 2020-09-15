@@ -11,7 +11,7 @@
     background: #456ABD;
     width: 100%;
     transition: background 0.3s ease;
-  } */
+  } 
   .container{
     position: relative;
     height: 500px;
@@ -143,7 +143,7 @@
   .content .colour-value span.yellow.active:after{
     border-color: #EAA523;
   }
-  .wrapper .btns{
+/*  .wrapper .btns{
     display: flex;
     height: 80px;
     width: 100%;
@@ -163,3 +163,4 @@
     text-transform: uppercase;
     cursor: pointer;
   }
+  */
