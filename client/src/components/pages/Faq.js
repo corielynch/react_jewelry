@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Faq = () => {
+const faq = () => {
     return <div>Home Pagee</div>
 }
-export default Faq;
+export default faq;

@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import { Link} from 'react-router-dom'
 import Searchbar from '../searchbar/searchbar'
+import Logo from "../../../assets/logo.png"
 import './header.css'
+
+
 
 class Header extends Component {
     render(){
