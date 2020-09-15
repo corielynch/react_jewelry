@@ -15,10 +15,10 @@ const Product = () => {
                 <div class="title">product.name</div>
                 <p>product.description</p>
                 <span class="price">product.price</span>
-                <div class="content size">
-                  <div class="name size-name">Size</div>
+                <div class="content tag">
+                  <div class="name tag-name">Tag</div>
                     <div class="size-value">
-                      <span class="color">Custom sizes</span>
+                      <span class="category">Category</span>
                     </div>
                   </div>
                 </div>

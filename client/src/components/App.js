@@ -11,7 +11,6 @@ import Account from './pages/Account';
 import Navbar from './pages/Navbar';
 import ProductPage from './pages/Product-Page';
 import { FooterContainer } from '../containers/footer';
-import SignUp from './pages/SignUp';
 
 class App extends React.Component {
     render(){
@@ -28,9 +27,8 @@ class App extends React.Component {
                         <Route path='/Press' exact component={Press} />
                         <Route path='/Lookbook' exact component={Lookbook} />
                         <Route path='/Header' exact component={Header} />
-                        <Route path='/FAQ' exact component={FAQ} />
+                        <Route path='/Faq' exact component={Faq} />
                         <Route path='/Account' exact component={Account} />
-                        <Route path='/signup' exact component={SignUp} />
                         <Route path='/product-page' exact component={ProductPage} />
                     </Switch>
                 <FooterContainer />
