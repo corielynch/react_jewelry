@@ -1,6 +1,7 @@
 
 var db = require('../models/index.js');
-
+const { QueryTypes } = require('sequelize');
+const { sequelize } = require('../models/index.js');
 // get all products from database
 
 // exports.productsAll = function(res) {
@@ -12,7 +13,8 @@ var db = require('../models/index.js');
 //   };
 
 exports.productsAll = function(req, res) {
-  db.product.findAll({}).then((result) => {
+
+  db.products.findAll({}).then((result) => {
    console.log("products:", result)
    return res.json(result);
  })

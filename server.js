@@ -12,8 +12,10 @@ app.use(express.json());
 app.use(express.static("client/public"));
 app.use(require("./routes/products.js"));
 
+const { QueryTypes } = require('sequelize');
+db.sequelize.sync({force: false}).then(function() {
 
-db.sequelize.sync({force: true}).then(function() {
+ 
     app.listen(PORT, function() {
       console.log("App listening on PORT " + PORT);
     });
