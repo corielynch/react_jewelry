@@ -13,7 +13,7 @@ class Header extends Component {
                 </div>
                 <div class="header-logo">
 
-                    <p>{ Logo }</p>
+                    {/* <p>{ Logo }</p> */}
                 </div>
             </div> 
         )
