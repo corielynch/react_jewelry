@@ -3,17 +3,24 @@ var db = require('../models/index.js');
 
 // get all products from database
 
-exports.productsAll = function(req,res) {
-  db.products.findAll().then(function(result) {
+// exports.productsAll = function(res) {
+//   db.products.findAll().then(function(result) {
+//     console.log(result)
+//     return res.json(result);
+   
+//     })
+//   };
+
+exports.productsAll = function(res) {
+   db.product.findAll().then((result) => {
+    try {
     console.log(result)
     return res.json(result);
-   
-    
-    })
-  };
-
-
-
+      } catch(err) {
+      console.log(err);
+      }
+  })
+};
 
 
   // db.User.findAll({
