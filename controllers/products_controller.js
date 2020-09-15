@@ -11,16 +11,41 @@ var db = require('../models/index.js');
 //     })
 //   };
 
-exports.productsAll = function(res) {
-   db.product.findAll().then((result) => {
-    try {
-    console.log(result)
-    return res.json(result);
-      } catch(err) {
-      console.log(err);
-      }
-  })
+exports.productsAll = function(req, res) {
+  db.product.findAll({}).then((result) => {
+   console.log("products:", result)
+   return res.json(result);
+ })
 };
+
+
+// exports.productsAll = function(req, res) {
+//   db.product.findAll().then((result) => {
+//    return res.json(result);
+//    console.log(req.body)
+//  })
+// };
+
+
+// exports.productsAll = function(res) {
+//   db.product.findAll().then((result) => {
+
+//    console.log(result)
+//    res.json(result);
+    
+//  })
+// };
+
+// exports.productsAll = function(res) {
+//    db.product.findAll().then((result) => {
+//     try {
+//     console.log(result)
+//     return res.json(result);
+//       } catch(err) {
+//       console.log(err);
+//       }
+//   })
+// };
 
 
   // db.User.findAll({
