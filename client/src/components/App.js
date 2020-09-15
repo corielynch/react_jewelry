@@ -7,7 +7,7 @@ import About from './pages/About';
 import Press from './pages/Press';
 import Lookbook from './pages/Lookbook';
 import Header from './layouts/header/header';
-import FAQ from './pages/faq';
+// import FAQ from './pages/faq';
 import Account from './pages/account';
 import Nav from './layouts/nav/nav'
 import Footer from './layouts/footer/footer';
@@ -32,7 +32,7 @@ class App extends React.Component {
                         <Route path='/Lookbook' exact component={Lookbook} />
                         <Route path='/Header' exact component={Header} />
                         <Route path='/Contact' exact component={Contact} />
-                        <Route path='/FAQ' exact component={FAQ} />
+                        {/* <Route path='/FAQ' exact component={FAQ} /> */}
                         <Route path='/Account' exact component={Account} />
                     </Switch>
                     <Footer />
