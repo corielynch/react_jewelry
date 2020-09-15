@@ -10,10 +10,9 @@ title VARCHAR (500),
 body VARCHAR (500),
 tags VARCHAR (500),
 price INTEGER(200),
-img_src VARCHAR (500)
-
-PRIMARY KEY ( `id` ) 
+img_src VARCHAR (500),
+Primary key (id)
 
 );
 
-SELECT * FROM products
+Select * from products; 
