@@ -1,14 +1,22 @@
 
-var db = require('../models');
+var db = require('../models/index.js');
 
 // get all products from database
 
 exports.productsAll = function(req,res) {
-  products.findAll().then(function(result) {
+  db.products.findAll().then(function(result) {
     console.log(result)
     return res.json(result);
    
-    // db.User.findAll({
+    
+    })
+  };
+
+
+
+
+
+  // db.User.findAll({
     //   where: {username: req.body.username}
     // }).then(function(users) {
     //   if (users.length > 0) {
@@ -27,5 +35,3 @@ exports.productsAll = function(req,res) {
     //       res.json(err);
     //     });
     //   }
-    })
-  };

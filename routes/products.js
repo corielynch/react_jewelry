@@ -2,10 +2,27 @@ var express = require('express');
 var router  = express.Router();
 var products_controller = require('../controllers/products_controller');
 
-router.get('/search-products', products_controller.productsAll);
+router.get('/api/search-products', products_controller.productsAll);
 
 
 module.exports = router;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
