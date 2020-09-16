@@ -6,7 +6,7 @@ import About from './pages/About';
 import Press from './pages/Press';
 import Lookbook from './pages/Lookbook';
 import Header from './pages/Header';
-import FAQ from './pages/Faq';
+import Faq from './pages/Faq';
 import Account from './pages/Account';
 import Navbar from './pages/Navbar';
 import ProductPage from './pages/Product-Page';
