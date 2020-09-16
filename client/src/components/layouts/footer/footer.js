@@ -33,3 +33,5 @@ export function FooterContainer() {
         </Footer>    
     )
 }
+
+export default Footer;

@@ -33,13 +33,8 @@ class App extends React.Component {
                         {/* <Route path='/Lookbook' exact component={Lookbook} /> */}
                         <Route path='/Header' exact component={Header} />
                         <Route path='/Contact' exact component={Contact} />
-<<<<<<< HEAD
-                        <Route path='/Faq' exact component={Faq} />
-                        <Route path='/Account' exact component={Account} />
-=======
                         {/* <Route path='/FAQ' exact component={FAQ} /> */}
                         {/* <Route path='/Account' exact component={Account} /> */}
->>>>>>> routing
                     </Switch>
                     <Footer />
             </Router> 
