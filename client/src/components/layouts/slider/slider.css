@@ -89,6 +89,6 @@ html,body{
 }
 .back-face ul a:hover{
   color: black;
-  border-color: #1cc7d0;
-  background: whitesmoke;
+  border-color: grey;
+  background: gold;
 }
