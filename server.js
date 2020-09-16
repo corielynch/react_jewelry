@@ -13,11 +13,10 @@ app.use(express.json());
 
 app.use(express.static("client/public"));
 
-// Routes
-// =============================================================
+//Routes
 // require("./app/routes/api-routes.js")(app);
 
-// Here we introduce HTML routing to serve different HTML files
+// //Here we introduce HTML routing to serve different HTML files
 // require("./app/routes/html-routes.js")(app);
 
 
