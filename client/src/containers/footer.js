@@ -3,7 +3,7 @@ import Footer from '../components/layouts/footer'
 import Icon from '../components/icons'
 
 export function FooterContainer() {
-    return(
+    return (
         <Footer>
             <Footer.Wrapper>
                 <Footer.Row> 
