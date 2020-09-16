@@ -9,10 +9,10 @@ import Press from './pages/Press';
 import Header from './layouts/header/header';
 // import FAQ from './pages/faq';
 // import Account from './pages/account';
-import Nav from './layouts/nav/nav'
-import Footer from './layouts/footer/footer';
+import Nav from './layouts/nav/Navbar'
+import FooterContainer from './layouts/footer/footer.jsx';
 import Contact from './layouts/contact/contact'
-import Faq from './pages/faq';
+import Faq from './pages/Faq';
 
 
 // import Switch from 'react-bootstrap/esm/Switch';
@@ -36,7 +36,7 @@ class App extends React.Component {
                         {/* <Route path='/FAQ' exact component={FAQ} /> */}
                         {/* <Route path='/Account' exact component={Account} /> */}
                     </Switch>
-                    <Footer />
+                    <FooterContainer />
             </Router> 
             </div>
         </div>      

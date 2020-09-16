@@ -7,7 +7,7 @@ const { sequelize } = require('../models/index.js');
   exports.productsAll = function(req, res) {
 
   db.products.findAll({}).then((results) => {
-   console.log(results.products.id)
+   console.log(results)
    return res.json(results);
   })
 };
