@@ -8,5 +8,5 @@ export const GlobalStyles = createGlobalStyle`
         position: relative;
         top: 5px;
         background: white;
-        font-family: 'Poppin', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }`;    
