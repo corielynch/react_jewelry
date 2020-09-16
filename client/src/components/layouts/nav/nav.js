@@ -1,39 +1,77 @@
-import React, { Component } from 'react'
-import { Link} from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import './nav.css'
+import Logo from '../icons/img/logo.png';
 
-class Nav extends Component {
-  render(){
-    return(
-      <div>
-    
-  <nav>
-    <div className="nav-wrapper">
-      <a href="/home" className="brand-logo">Logo</a>
-      <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-      <ul className="right hide-on-med-and-down">
-        <li><a href="/home" >HOME</a></li>
-        <li><a href="/" >SHOP</a></li>
-        <li><a href="/about"  >ABOUT</a></li>
-        <li><a href="/press"  >PRESS</a></li>
-        <li><a href="/lookbook"  >LOOKBOOK</a></li>
-        <li><a href="/contact"  >CONTACT</a></li>
-        <li><a href="/faq"  >FAQ</a></li>
-        <li><a href="mobile.html" >Mobile</a></li>
-      </ul>
-    </div>
-  </nav>
+function nav() {
+    const [click, setClick] = useState(false);
 
-  <ul className="sidenav" id="mobile-demo">
-    <li><a href="sass.html" className="black">Sass</a></li>
-    <li><a href="badges.html" className="black">Components</a></li>
-    <li><a href="collapsible.html" className="black">Javascript</a></li>
-    <li><a href="mobile.html" >Mobile</a></li>
-  </ul>
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
 
-      </div>
-    )
-  }
+    return (
+        <>
+            <nav className='navbar'>
+                <Link to='#' className='navbar-logo'>
+                    <img src={Logo} />
+                </Link>
+                <div className='menu-icon' onClick={handleClick}>
+                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                </div>
+                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <li className='nav-item'>
+                        <Link to='/home' className='nav-links' 
+                        onClick={closeMobileMenu}>
+                            HOME
+                        </Link>    
+                    </li> 
+                    <li className='nav-item'>
+                        <Link to='/' className='nav-links' 
+                        onClick={closeMobileMenu}>
+                            SHOP
+                        </Link>    
+                    </li> 
+                    <li className='nav-item'>
+                        <Link to='/about' className='nav-links' 
+                        onClick={closeMobileMenu}>
+                            ABOUT
+                        </Link>    
+                    </li> 
+                    <li className='nav-item'>
+                        <Link to='/press' className='nav-links' 
+                        onClick={closeMobileMenu}>
+                            PRESS
+                        </Link>    
+                    </li> 
+                    <li className='nav-item'>
+                        <Link to='/lookbook' className='nav-links' 
+                        onClick={closeMobileMenu}>
+                            LOOKBOOK
+                        </Link>    
+                    </li> 
+                    <li className='nav-item'>
+                        <Link to='/contact' className='nav-links' 
+                        onClick={closeMobileMenu}>
+                            CONTACT
+                        </Link>    
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/faq' className='nav-links' 
+                        onClick={closeMobileMenu}>
+                            FAQ
+                        </Link>    
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/account' className='nav-links' 
+                        onClick={closeMobileMenu}>
+                            ACCOUNT
+                        </Link>    
+                    </li>  
+                </ul>   
+            </nav>
+        </>    
+    );
 }
-  
-  export default Nav;
- 
+
+export default nav;
+

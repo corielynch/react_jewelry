@@ -1,6 +1,5 @@
 import React from 'react';
-// import src from '*.bmp';
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './product.css'
 
 // Simple card container to hold product information //
@@ -16,25 +15,17 @@ const Product = () => {
                 <div class="title">product.name</div>
                 <p>product.description</p>
                 <span class="price">product.price</span>
-                <div class="content size">
-                  <div class="name size-name">Size</div>
+                <div class="content tag">
+                  <div class="name tag-name">Tag</div>
                     <div class="size-value">
-                      <span class="color">XS</span>
-                      <span class="color">S</span>
-                      <span class="active">M</span>
-                      <span class="color">L</span>
-                      <span class="color">XL</span>
+                      <span class="category">Category</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
     )
-    
-
-
 }
 export default Product;
 

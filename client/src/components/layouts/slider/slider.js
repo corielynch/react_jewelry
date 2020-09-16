@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link} from 'react-router-dom'
-import './slider'
+import { Link } from 'react-router-dom'
+import './slider.css'
 
 // Product or change to Jewelry //
 const Product = () => {
