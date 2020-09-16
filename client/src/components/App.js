@@ -15,6 +15,8 @@ import { FooterContainer } from '../containers/footer';
 class App extends React.Component {
     render(){
         return (
+            /* for footer <> */
+            <>
             <div className="page-containter">
                 <div className="content-wrap">
                 <Router>
@@ -32,6 +34,7 @@ class App extends React.Component {
                         <Route path='/product-page' exact component={ProductPage} />
                     </Switch>
                 <FooterContainer />
+            </>
             </Router> 
         </div>
         </div>      
