@@ -1,5 +1,6 @@
 .searchbar-class {
    display: flex;
    max-width: 350px; 
-   
+   input: whitesmoke;
+   textarea
 }
