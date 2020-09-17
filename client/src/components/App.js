@@ -9,7 +9,7 @@ import Header from './layouts/header/header';
 // import FAQ from './pages/faq';
 // import Account from './pages/account';
 import Nav from './layouts/nav/Navbar'
-import FooterContainer from './layouts/footer/footer.jsx';
+// import FooterContainer from './layouts/footer/footer';
 import Contact from './layouts/contact/contact'
 
 
@@ -34,7 +34,7 @@ class App extends React.Component {
                         {/* <Route path='/FAQ' exact component={FAQ} /> */}
                         {/* <Route path='/Account' exact component={Account} /> */}
                     </Switch>
-                    <FooterContainer />
+                   {/* <FooterContainer /> */}
             </Router> 
             </div>
         </div>      

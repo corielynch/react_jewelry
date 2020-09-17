@@ -4,7 +4,7 @@ import Product from '../layouts/product/product'
 const Shop = () => {
         return (
         <div>
-         Slider
+      {/*   Slider  */}
         <Product />
         </div>
       

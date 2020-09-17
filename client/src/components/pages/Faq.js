@@ -2,7 +2,7 @@ import React from 'react';
 
 const Faq = () => {
     return <div>
-        <p><i class='fab fa-logo' />
+        <p>
         ALL PRODUCTS ARE MADE BY HAND SO PLEASE ALLOW 4-6 WEEKS FOR CREATION + DELIVERY.
         </p>
         <p>
