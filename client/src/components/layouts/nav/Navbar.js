@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import "./nav.css"
 import Logo from "../../../assets/logo.png";
+
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -65,6 +66,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                 </ul>
+        <div className="cart hide"><i className="fas fa-shopping-cart"></i>0</div>
             </nav>
         </>
     );
