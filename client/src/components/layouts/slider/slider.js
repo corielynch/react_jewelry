@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import './style.css'
 
 // Product or change to Jewelry //
@@ -8,7 +7,7 @@ const Product = () => {
       <div className="wrapper">
         <div className="card front-face">
           <div class="image"></div>
-          <img src="{product.img.src}"></img></div>
+          <img src="{product.img.src}" alt="product.title"></img></div>
         <div className="card back-face">
           <div className="info">
           <div class="title">product.name</div>

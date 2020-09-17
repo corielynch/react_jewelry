@@ -10,7 +10,7 @@ const Navbar = () => {
         <>
             <nav className="navbar">
                 <Link to="#" className="navbar-logo">
-                    <img src={Logo} />
+                    <img src={Logo} alt="title"/>
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} />
