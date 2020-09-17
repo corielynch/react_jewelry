@@ -1,24 +1,12 @@
 import React from 'react';
-import axios from 'axios'
-import ProductsList from './productsList';
 import './product.css'
 
 
-
-
-// Simple card container to hold product information //
-// class Product extends React.Component {
-//   state = {products: []}
-//   async componentDidMount(){
-//     const response = await axios.get('/api/search-products', 
-//     )
-   
-//     this.setState({products: response.data})
-   
-//   }
-  
-//   render(){
   const Product = (props) => {
+    console.log(props.products)
+    const title = props.products.map( products => {
+      return products.title
+    })
     return (
       <div>
         <div className="container">
@@ -28,8 +16,8 @@ import './product.css'
             <div className="card-content">
               <div className="wrapper">
                 {/* <div className="title">product.name</div> */}
-                <p>product.description</p>
-                <span className="price">product.price {this.state.products.length}</span>
+                <p>{title}</p>
+                <span className="price">product.price {}</span>
                 <div className="content tag">
                   <div className="name tag-name">Tag</div>
                     <div className="size-value">
@@ -43,7 +31,6 @@ import './product.css'
           </div>
     );
   }
-    
 
 export default Product;
 

@@ -1,5 +1,7 @@
+import axios from 'axios'
+
 const getProducts = async() =>{
     const res = await axios('/api/search-products');
-    return (res.json());
+    return res;
 }
 export default getProducts;
