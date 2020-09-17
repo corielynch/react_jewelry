@@ -4,16 +4,14 @@ import Shop from './pages/Shop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Press from './pages/Press';
-// import Lookbook from './pages/Lookbook';
+import Lookbook from './pages/Lookbook';
 import Header from './layouts/header/header';
-// import FAQ from './pages/faq';
-// import Account from './pages/account';
-import Nav from './layouts/nav/Navbar'
-// import FooterContainer from './layouts/footer/footer';
+import Faq from './pages/Faq';
+//import Account from './pages/Account';
+import Navbar from './layouts/nav/Navbar'
+import Footer from './layouts/footer/Footer';
 import Contact from './layouts/contact/contact'
 
-
-// import Switch from 'react-bootstrap/esm/Switch';
 
 class App extends React.Component {
     render(){
@@ -22,19 +20,19 @@ class App extends React.Component {
                 <div className="content-wrap">
                 <Router>
                     <Header />
-                        <Nav />  
+                    <Navbar />  
                     <Switch>
                         <Route path='/' exact component={Shop} />
                         <Route path='/Home' exact component={Home} />
                         <Route path='/About' exact component={About} />
                         <Route path='/Press' exact component={Press} />
-                        {/* <Route path='/Lookbook' exact component={Lookbook} /> */}
+                        <Route path='/Lookbook' exact component={Lookbook} />
                         <Route path='/Header' exact component={Header} />
                         <Route path='/Contact' exact component={Contact} />
-                        {/* <Route path='/FAQ' exact component={FAQ} /> */}
-                        {/* <Route path='/Account' exact component={Account} /> */}
-                    </Switch>
-                   {/* <FooterContainer /> */}
+                        <Route path='/Faq' exact component={Faq} />
+                       {/* <Route path='/Account' exact component={Account} /> */}
+                       </Switch>
+                    <Footer /> 
             </Router> 
             </div>
         </div>      
@@ -44,3 +42,4 @@ class App extends React.Component {
 
 
 export default App;
+

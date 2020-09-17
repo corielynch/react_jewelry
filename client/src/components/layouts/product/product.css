@@ -4,14 +4,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
-  /* html,body{
-    display: grid;
+   html,body{
+    display: table-header-group;
+    justify-content: center;
     height: 100%;
     place-items: center;
-    background: #456ABD;
+    background: white;
     width: 100%;
     transition: background 0.3s ease;
-  } 
+  }  
   .container{
     position: relative;
     height: 500px;
@@ -87,7 +88,7 @@
     margin: 5px 0;
     justify-content: space-between;
   }
-  .content .size-value span{
+  /* .content .size-value span{
     display: block;
     height: 28px;
     width: 28px;
@@ -98,11 +99,11 @@
     font-weight: 500;
     cursor: pointer;
     color: #456ABD;
-  }
-  .content .size-value span.active{
+  } */
+  /* .content .size-value span.active{
     background: #456ABD;
     color: #fff;
-  }
+  }  */
   .content .colour-value{
     width: 30%;
     display: flex;
@@ -134,7 +135,7 @@
     left: -4px;
     top: -4px;
     box-sizing: border-box;
-    border: 2px solid #456ABD;
+    border: 2px solid whitesmoke;
     border-radius: 50%;
   }
   .content .colour-value span.white.active:after{
