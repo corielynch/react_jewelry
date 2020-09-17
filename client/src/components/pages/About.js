@@ -1,12 +1,14 @@
 import React from 'react';
+import { Mona } from '../../assets/mona.png';
 
 const About = () => {
     return (
         <div>
             <hr />
           <div class="container">
-          <div class="content-wrapper">
+          <div class="content-wrap">
               <h4>About</h4>
+             < img src={ Mona } alt="mona's picture"></img>
         <p>
 Descended from 2500 years of jewelry addicts, the Persian-American designer, 
 Mona Assemi's namesake brand was founded in Washington DC. 
@@ -45,6 +47,7 @@ Mona Assemi's namesake brand was founded in Washington DC.
         </div>
         </div>
 </div>
+
     )
 };
 export default About;

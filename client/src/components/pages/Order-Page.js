@@ -1,27 +1,54 @@
 import React from 'react';
+// import from 
+
+//create a stateless component to display the shopping cart items
+class OrderPage extends React.Component {
 
 
-    const OrderPage = () => {
+
+    //render individual item
+    render() {
         return (
-          <div>
-              <hr />
-            <div class="container">
-                <div class="image">
-                    <img src={ look } alt= 'photos of jewelry' />
-                </div>
+            <div key={this.props.index} className="Cart">
+                <figure>
+                    <img src={this.props.item.Img.src} alt={this.props.item.Img.name} id={this.props.index} />
+                </figure>
+                    <table className="ProductInformation">
+                    <tbody>
+                        <tr>
+                            <td><b>Image Description: </b></td>
+                            <td>{this.props.item.Img.description}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Size:</b></td>
+                            <td>{this.props.item.order.size}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Type:</b></td>
+                            <td>{this.props.item.order.type}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Quantity:</b></td>
+                            <td>{this.props.item.order.quantity}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Price Per:</b></td>
+                            <td>${this.state.price}.00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Total:</b></td>
+                            <td>${this.state.total}.00</td>
+                        </tr>
+                    </tbody>
+                    </table>
             </div>
-            <hr />
-        </div>
         )
     }
+}
+
 export default OrderPage;
 
 
-
-// CART PAGE pseudo
-// product image {url}
-// where is it coming
-// from brandon to me buy button. 
 
 <div>
 
