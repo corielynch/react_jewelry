@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import './product.css'
 
 // Simple card container to hold product information //
