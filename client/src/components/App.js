@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-import * as ReactBootstrap from "react-bootstrap";
 import Shop from './pages/Shop';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -12,7 +11,6 @@ import Header from './layouts/header/header';
 import Nav from './layouts/nav/Navbar'
 import FooterContainer from './layouts/footer/footer.jsx';
 import Contact from './layouts/contact/contact'
-import Faq from './pages/Faq';
 
 
 // import Switch from 'react-bootstrap/esm/Switch';

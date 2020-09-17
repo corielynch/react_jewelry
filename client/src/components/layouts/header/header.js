@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import Searchbar from '../searchbar/searchbar'
 import Logo from '../../../assets/logo.png';
 import './header.css'
@@ -12,7 +11,7 @@ class Header extends Component {
                     <Searchbar />
                 </div>
                 <div className="header-logo">
-                    <p> <img src={Logo} /> </p>
+                    <p> <img src={Logo} alt=".title"/> </p>
                 </div>
             </div> 
         )
