@@ -11,3 +11,4 @@ const { sequelize } = require('../models/index.js');
    return res.json(results);
   })
 };
+
