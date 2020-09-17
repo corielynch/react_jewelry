@@ -30,6 +30,7 @@ import './product.css'
             </div>
           </div>
     );
+
   }
 
 export default Product;
