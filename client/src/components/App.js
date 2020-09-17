@@ -5,13 +5,14 @@ import Shop from './pages/Shop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Press from './pages/Press';
-import Lookbook from './pages/Lookbook';
+// import Lookbook from './pages/Lookbook';
 import Header from './layouts/header/header';
-import Account from './pages/account';
-import Nav from './layouts/nav/nav'
-import Footer from './layouts/footer/footer';
+// import FAQ from './pages/faq';
+// import Account from './pages/account';
+import Nav from './layouts/nav/Navbar'
+import FooterContainer from './layouts/footer/footer.jsx';
 import Contact from './layouts/contact/contact'
-import Faq from './pages/faq';
+import Faq from './pages/Faq';
 
 
 // import Switch from 'react-bootstrap/esm/Switch';
@@ -29,13 +30,13 @@ class App extends React.Component {
                         <Route path='/Home' exact component={Home} />
                         <Route path='/About' exact component={About} />
                         <Route path='/Press' exact component={Press} />
-                        <Route path='/Lookbook' exact component={Lookbook} />
+                        {/* <Route path='/Lookbook' exact component={Lookbook} /> */}
                         <Route path='/Header' exact component={Header} />
                         <Route path='/Contact' exact component={Contact} />
-                        <Route path='/Faq' exact component={Faq} />
-                        <Route path='/Account' exact component={Account} />
+                        {/* <Route path='/FAQ' exact component={FAQ} /> */}
+                        {/* <Route path='/Account' exact component={Account} /> */}
                     </Switch>
-                    <Footer />
+                    <FooterContainer />
             </Router> 
             </div>
         </div>      
