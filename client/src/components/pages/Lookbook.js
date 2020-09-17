@@ -1,5 +1,5 @@
 import React from 'react';
-import Pick from '../../assets/look.png';
+import Pick from '../icons/img/look.png';
 
 const Lookbook = () => {
     return (
@@ -7,9 +7,7 @@ const Lookbook = () => {
           <hr />
         <div class="container">
             <div class="card">
-               <i> <img src={ Pick } />
-                             
-            </div>
+               <i> <img src={ Pick } /></i> </div>
         </div>
         <hr />
     </div>

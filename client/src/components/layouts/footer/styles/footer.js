@@ -40,12 +40,13 @@ color: #000000;
 
     &:hover {
         color: black;
+        background: white;
         transition: 200ms ease-in;
     }
 `;
 export const Title = styled.p`
     font-size; 24px;
-    color: #000000;
+    color: black;
     margin-bottom: 20 px;
     font-weight: bold;
 `;

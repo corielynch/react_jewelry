@@ -1,5 +1,5 @@
 import React from 'react';
-import Pic from '../../assets/press.png';
+import Pic from '../icons/img/press.png';
 
 const Press = () => {
     return (
@@ -8,9 +8,8 @@ const Press = () => {
         <div class="container">
             <div class="card">
                <i> <img src={ Pic } />
-                //press images//
                 
-            </div>
+           //</i> </div>
         </div>
         <hr />
     </div>
