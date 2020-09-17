@@ -6,19 +6,19 @@ import './product.css'
 const Product = () => {
     return (
       <div>
-        <div class="container">
-          <div class="image">
+        <div className="container">
+          <div className="image">
             <img src="{product.img.src}" alt="{product description}"></img>
           </div>
-            <div class="card-content">
-              <div class="wrapper">
-                <div class="title">product.name</div>
+            <div className="card-content">
+              <div className="wrapper">
+                <div className="title">product.name</div>
                 <p>product.description</p>
-                <span class="price">product.price</span>
-                <div class="content tag">
-                  <div class="name tag-name">Tag</div>
-                    <div class="size-value">
-                      <span class="category">Category</span>
+                <span className="price">product.price</span>
+                <div className="content tag">
+                  <div className="name tag-name">Tag</div>
+                    <div className="size-value">
+                      <span className="category">Category</span>
                     </div>
                   </div>
                 </div>
