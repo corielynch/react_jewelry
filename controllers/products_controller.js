@@ -10,15 +10,12 @@ module.exports = {
     })
   },
   createProduct: function(req,res){
-    console.log(req.body)
     db.products.create(req.body).then(results => {
-      console.log(results)
       res.json(results)
     })
   }, 
   updateProduct: function(req,res){
     const id = req.params.id
-    console.log(id,req.body)
     db.products.update(
       req.body,
       {
