@@ -6,7 +6,7 @@ const Faq = () => {
             <hr />
           <div class="container">
           <div class="text">
-              <h4> Let us introduce you to Mona</h4>
+              <p> Let us introduce you to Mona</p>
         <p>
         ALL PRODUCTS ARE MADE BY HAND SO PLEASE ALLOW 4-6 WEEKS FOR CREATION + DELIVERY.
         </p>
