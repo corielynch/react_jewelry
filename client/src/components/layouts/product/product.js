@@ -9,7 +9,7 @@ class Product extends React.Component{
 // const Product = () => {
 
 componentDidMount(){
-  axios.get('localhost:8080/api/search-products', {
+  axios.get('/api/search-products', {
   }).then((response) => {
     console.log(response)
   })
