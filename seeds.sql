@@ -5,8 +5,3 @@ Black resin and onyx earrings with white matte Swarovski at the top of the clip-
 
 INSERT INTO products (handle, title, body, tags, price, img_src)
 VALUES ("aries-gold-swarovski-crystal-ring", "Aries Gold and Swarovski Crystal Ring	Aries", "ring in gold plated and Swarovski crystal","Rings", 288, "https://cdn.shopify.com/s/files/1/0755/2497/products/ariesGold.png?v=1588459523");
-
-
-
-INSERT INTO products (handle, title, body, tags, price, img_src)
-VALUES ("aries-gold-swarovski-crystal-ring", "Aries Gold and Swarovski Crystal Ring Aries", "ring in gold plated and Swarovski crystal","Rings", 288, "https://cdn.shopify.com/s/files/1/0755/2497/products/ariesGold.png?v=1588459523");
