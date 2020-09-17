@@ -11,9 +11,17 @@ body VARCHAR (250),
 tags VARCHAR (250),
 price INTEGER(200),
 img_src VARCHAR (250),
-
-PRIMARY KEY ( `id` ) 
-
+PRIMARY KEY ( `id` )
 );
 
+CREATE TABLE checkout (
+    id int NOT NULL AUTO_INCREMENT,
+    products_id int NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (products_id) REFERENCES products(id)
+);
+
+
+
 SELECT * FROM products;
+SELECT * FROM checkout;

@@ -11,6 +11,8 @@ app.use(express.json());
 
 app.use(express.static("client/public"));
 app.use(require("./routes/products.js"));
+app.use(require("./routes/checkout-routes.js"));
+
 
 const { QueryTypes } = require('sequelize');
 db.sequelize.sync({force: false}).then(function() {
