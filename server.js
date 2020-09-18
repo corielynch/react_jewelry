@@ -16,8 +16,6 @@ app.use(require("./routes/checkout-routes.js"));
 
 const { QueryTypes } = require('sequelize');
 db.sequelize.sync({force: false}).then(function() {
-
- 
     app.listen(PORT, function() {
       console.log("App listening on PORT " + PORT);
     });
