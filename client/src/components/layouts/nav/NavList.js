@@ -1,44 +1,9 @@
 <Breadcrumb>
-  <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-  <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-    Library
-  </Breadcrumb.Item>
-  <Breadcrumb.Item active>Data</Breadcrumb.Item>
+  <Breadcrumb.Item href="#">HOME</Breadcrumb.Item>
+  <Breadcrumb.Item href="/Shop">SHOP</Breadcrumb.Item>
+  <Breadcrumb.Item href="/About">ABOUT</Breadcrumb.Item>
+  <Breadcrumb.Item href="/Press">PRESS</Breadcrumb.Item>
+  <Breadcrumb.Item href="/Lookbook">LOOKBOOK</Breadcrumb.Item>
+  <Breadcrumb.Item href="/Contact">CONTACT MONA</Breadcrumb.Item>
+  <Breadcrumb.Item href="/Faq">FAQ</Breadcrumb.Item>
 </Breadcrumb>
-export const NavList = [
-    {
-        title: 'Home',
-        url: '#',
-        proName: 'nav-links'
-    },
-    {
-        title: 'Shop',
-        url: '/',
-        proName: 'nav-links'
-    },
-    {
-        title: 'About',
-        url: '/About',
-        proName: 'nav-links'
-    },
-    {
-        title: 'Press',
-        url: '/Press',
-        proName: 'nav-links'
-    },
-    {
-        title: 'Lookbook',
-        url: '/Lookbook',
-        proName: 'nav-links'
-    },
-    {
-        title: 'Contact',
-        url: '/Contact',
-        proName: 'nav-links'
-    },
-    {
-        title: 'Faq',
-        url: '/Faq',
-        proName: 'nav-links'
-    }
-]
