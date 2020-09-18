@@ -19,11 +19,9 @@
   "bugs": {
     "url": "https://github.com/corielynch/react_jewelry/issues"
   },
-  "homepage": "https://github.com/corielynch/react_jewelry#readme",
   "dependencies": {
     "axios": "^0.20.0",
     "concurrently": "^5.3.0",
-    "csvtojson": "^2.0.10",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.5"
