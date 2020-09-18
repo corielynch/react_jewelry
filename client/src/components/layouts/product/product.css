@@ -1,10 +1,10 @@
- *{
+ /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-  }
-  /* html,body{
+  } */
+  html,body{
     display: grid;
     height: 100%;
     place-items: center;
@@ -143,8 +143,8 @@
   .content .colour-value span.yellow.active:after{
     border-color: #EAA523;
   }
-/*  .wrapper .btns{
-    display: flex;
+.wrapper .btns{
+    /* display: flex; */
     height: 80px;
     width: 100%;
     align-items: center;
@@ -163,4 +163,4 @@
     text-transform: uppercase;
     cursor: pointer;
   }
-  */
+ 
