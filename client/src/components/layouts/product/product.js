@@ -1,7 +1,7 @@
 import React from 'react';
 import './product.css'
 
-
+ 
   const Product = (props) => {
     const title = props.products.map( products => {
       return products.title
@@ -11,13 +11,13 @@ import './product.css'
     return (
       <div>
         <div className="container">
-        {title.map((product) => (
+        {/* {title.map((product) => (
            <div className="wrapper"> </div>
-          ))}
-        {title.map((product) => (
-            <span className="price">product.price {}</span>
-          // <div source={product} key={product} />
-          ))}
+          ))} */}
+        {/* {title.map((product) => ( */}
+            {/* <span className="price">product.price {}</span>
+          // <div source={product} key={product} /> */}
+          {/* // ))} */}
         
           <div className="image">
             {/* <img src="{product.img.src}" alt="{product description}"></img> */}
@@ -26,7 +26,7 @@ import './product.css'
               <div className="wrapper">
                 {/* <div className="title">product.name</div> */}
                 {/* <p>{title}</p> */}
-                <span className="price">product.price {}</span>
+                {/* <span className="price">product.price {}</span> */}
                 <div className="content tag">
                   <div className="name tag-name">Tag</div>
                     <div className="size-value">

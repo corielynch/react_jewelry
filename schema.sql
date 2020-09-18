@@ -10,7 +10,7 @@ title VARCHAR (250),
 body VARCHAR (250),
 tags VARCHAR (250),
 price INTEGER(200),
-img_src VARCHAR (250),
+img_src VARCHAR (550),
 
 PRIMARY KEY ( `id` ) 
 

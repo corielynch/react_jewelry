@@ -31,7 +31,15 @@ module.exports = function(sequelize, DataTypes) {
       price: {
         type: DataTypes.DECIMAL(10,2),
         defaultValue: 0.00
-      }
+      },
+      img_src: {
+        type: DataTypes.TEXT,
+        allowNull: false,
+        validate: {
+          len: [1]
+        }
+      },
+      
     },{
         freezeTableName: true, // Model tableName will be the same as the model name
         timestamps: false,

@@ -12,6 +12,9 @@ class ProductsList extends React.Component {
        this.setState({products: response.data})
     })
 }
+// async fetchImages() {
+//     let data = await
+// }
 
 async fetchData() {
     let response = await getProducts()
@@ -21,8 +24,13 @@ async fetchData() {
        return (
        <div>
         <Product products={this.state.products} />
+       
        </div>
+      
        )
    }
+
 }
+
 export default ProductsList;
+ 
