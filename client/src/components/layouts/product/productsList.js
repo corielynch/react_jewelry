@@ -5,7 +5,6 @@ import getProducts from './api'
 
 class ProductsList extends React.Component {
    state = { products: [] };
-   
    componentDidMount() {
     this.fetchData()
     .then(response => {
@@ -13,12 +12,10 @@ class ProductsList extends React.Component {
     
     })
 }
-
 async fetchData() {
     let response = await getProducts()
     return response;
    }
-
    render(){
        return (
        <div>
@@ -26,7 +23,6 @@ async fetchData() {
            this.state.products.map(( product ) => <Product product={product}  />)
         }
        </div>
-    
        )
    }
 

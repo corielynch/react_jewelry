@@ -30,7 +30,6 @@ const Product = ({product}) => {
                     </div>
                   </div>
     );
-  // }
 }
 
 export default Product;
