@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/corielynch/react_jewelry/issues"
   },
-  "homepage": "https://github.com/corielynch/react_jewelry#readme",
   "dependencies": {
     "axios": "^0.20.0",
     "concurrently": "^5.3.0",
