@@ -8,10 +8,10 @@
     display: grid;
     height: 100%;
     place-items: center;
-    background: #456ABD;
+    background: white;
     width: 100%;
     transition: background 0.3s ease;
-  } 
+  }  
   .container{
     position: relative;
     height: 500px;
@@ -23,7 +23,7 @@
   }
   .container:hover{
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
-  }
+  } 
   .container .image{
     position: absolute;
     top: 0;
@@ -37,9 +37,9 @@
     object-fit: cover;
     transition: all 0.3s ease;
   }
-  .container:hover .image img{
+   .container:hover .image img{
     transform: scale(1.1);
-  }
+  } 
   .container .card-content{
     position: relative;
     height: 100%;
@@ -56,7 +56,7 @@
   }
   .container:hover .card-content .wrapper{
     bottom: 0px;
-  }
+  } 
   .wrapper .title{
     font-size: 22px;
     font-weight: 500;
@@ -87,7 +87,7 @@
     margin: 5px 0;
     justify-content: space-between;
   }
-  .content .size-value span{
+  /* .content .size-value span{
     display: block;
     height: 28px;
     width: 28px;
@@ -98,11 +98,11 @@
     font-weight: 500;
     cursor: pointer;
     color: #456ABD;
-  }
-  .content .size-value span.active{
+  } */
+  /* .content .size-value span.active{
     background: #456ABD;
     color: #fff;
-  }
+  }  */
   .content .colour-value{
     width: 30%;
     display: flex;
@@ -134,7 +134,7 @@
     left: -4px;
     top: -4px;
     box-sizing: border-box;
-    border: 2px solid #456ABD;
+    border: 2px solid whitesmoke;
     border-radius: 50%;
   }
   .content .colour-value span.white.active:after{

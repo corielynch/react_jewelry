@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Searchbar from '../searchbar/searchbar'
+//import Searchbar from '../searchbar/searchbar'
 import Logo from '../../../assets/logo.png';
 import './header.css'
 
@@ -8,7 +8,7 @@ class Header extends Component {
         return(
             <div className="header-class"> 
                 <div >
-                    <Searchbar />
+                  {/*  <Searchbar /> */ }
                 </div>
                 <div className="header-logo">
                     <p> <img src={Logo} alt=".title"/> </p>

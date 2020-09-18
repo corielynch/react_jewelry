@@ -1,74 +1,35 @@
-import React, { useState } from "react"
-import { Link } from "react-router-dom"
-import "./nav.css"
-import Logo from "../../../assets/logo.png";
+import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+import { NavList } from "./NavList";
+import '../nav/Navbar.css';
 
-const Navbar = () => {
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
-    return (
-        <>
-            <nav className="navbar">
-                <Link to="#" className="navbar-logo">
-                    <img src={Logo} alt="title"/>
-                </Link>
-                <div className="menu-icon" onClick={handleClick}>
-                    <i className={click ? "fas fa-times" : "fas fa-bars"} />
+class Navbar extends Component {
+    state = { clicked: false }
+
+    handleClick = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
+
+    render() {
+        return(
+            <nav className="NavbarItems">
+                <div className="menu-icon" onClick={this.handleClick}>
+                    {/* <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i> */}
                 </div>
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
-                    <li className="nav-item">
-                        <Link to="/home" className="nav-links"
-                        onClick={closeMobileMenu}>
-                            HOME
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/" className="nav-links"
-                        onClick={closeMobileMenu}>
-                            SHOP
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/about" className="nav-links"
-                        onClick={closeMobileMenu}>
-                            ABOUT
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/press" className="nav-links"
-                        onClick={closeMobileMenu}>
-                            PRESS
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/lookbook" className="nav-links"
-                        onClick={closeMobileMenu}>
-                            LOOKBOOK
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/contact" className="nav-links"
-                        onClick={closeMobileMenu}>
-                            CONTACT
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/faq" className="nav-links"
-                        onClick={closeMobileMenu}>
-                            FAQ
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/account" className="nav-links"
-                        onClick={closeMobileMenu}>
-                            ACCOUNT
-                        </Link>
-                    </li>
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                    {NavList.map((item, index) => {
+                        return (
+                            <li key={index}>
+                                <Link to={item.url} className= {item.proName}>{item.title}</Link>
+                            </li>
+                        )
+                    })}
                 </ul>
         <div className="cart hide"><i className="fas fa-shopping-cart"></i>0</div>
             </nav>
-        </>
-    );
+        )
+    }
 }
 export default Navbar;
+
+

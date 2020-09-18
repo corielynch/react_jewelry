@@ -7,7 +7,6 @@ import App from './components/App'
 ReactDOM.render(
     // for the footer style, please don't delete from 10-15 all together.
     <>
-
         <App />
     </>
     ,

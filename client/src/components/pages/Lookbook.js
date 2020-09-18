@@ -1,4 +1,5 @@
 import React from 'react';
+import { look } from "../../assets/look.png";
 
 const Lookbook = () => {
     return (
@@ -6,9 +7,7 @@ const Lookbook = () => {
           <hr />
         <div class="container">
             <div class="image">
-                <img src="{./icons/look.png}" />
-                //Lookbook images//
-                
+                <img src={ look } alt= 'photos of jewelry' />
             </div>
         </div>
         <hr />

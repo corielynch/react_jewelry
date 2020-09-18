@@ -1,8 +1,13 @@
 import React from 'react';
 
 const Faq = () => {
-    return <div>
-        <p><i class='fab fa-logo' />
+    return (
+        <div>
+            <hr />
+          <div class="container">
+          <div class="text">
+              <p> Let us introduce you to Mona</p>
+        <p>
         ALL PRODUCTS ARE MADE BY HAND SO PLEASE ALLOW 4-6 WEEKS FOR CREATION + DELIVERY.
         </p>
         <p>
@@ -14,6 +19,10 @@ const Faq = () => {
         <p>
         JEWELRY, WILL BE THE CLOSEST VARIATION TO THE PIECES PICTURED WHEN SHIPPED.
         </p>
-    </div>
-}
+        </div>
+        </div>
+        <hr />
+</div>
+    )
+};
 export default Faq;

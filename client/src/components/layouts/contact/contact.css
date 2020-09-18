@@ -1,8 +1,19 @@
-.Contact {
-    color: gold;
-    background-color: whitesmoke;
-    padding-top: 3rem;
-    position: relative;
-    bottom: 0;
-    width: 100%; 
+body {
+  background: lightgray;
+  color: black;
+  letter-spacing: 1px;
 }
+
+header {
+  margin: 20px;
+  text-align: center;
+}
+
+.success {
+  color: #0ff40f;
+}
+
+.error {
+  color: #960303;
+}
+

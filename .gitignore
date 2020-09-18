@@ -5,3 +5,7 @@ client/node_modules
 client/package-lock.json
 config.json
 .gitignore
+<<<<<<< HEAD
+=======
+.gitignore
+>>>>>>> css
