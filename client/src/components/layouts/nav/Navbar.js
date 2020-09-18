@@ -48,13 +48,13 @@ const Navbar = () => {
       </MDBBreadcrumb>
 
       <MDBBreadcrumb light color="white lighten-2">
-          <Breadcrumb.Item href="#">HOME</Breadcrumb.Item>
-  <Breadcrumb.Item href="/Shop">SHOP</Breadcrumb.Item>
-  <Breadcrumb.Item href="/About">ABOUT</Breadcrumb.Item>
-  <Breadcrumb.Item href="/Press">PRESS</Breadcrumb.Item>
-  <Breadcrumb.Item href="/Lookbook">LOOKBOOK</Breadcrumb.Item>
-  <Breadcrumb.Item href="/Contact">CONTACT MONA</Breadcrumb.Item>
-  <Breadcrumb.Item href="/Faq">FAQ</Breadcrumb.Item>
+        <MDBBreadcrumbItem href="#">HOME</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem href="/Shop">SHOP</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem href="/About">ABOUT</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem href="/Press">PRESS</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem href="/Lookbook">LOOKBOOK</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem href="/Contact">CONTACT MONA</MDBBreadcrumbItem>
+        <MDBBreadcrumbItem href="/Faq">FAQ</MDBBreadcrumbItem>
       </MDBBreadcrumb>
     </MDBContainer>
   );
