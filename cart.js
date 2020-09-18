@@ -2,6 +2,7 @@ import React from 'react';
 
 const Cart = () => {
     return (
+        <div>
         <div className="mainContentWrapper">
         <div className="pageFeader">
         <a href="/">Home</a><span className="divider" />
@@ -49,4 +50,5 @@ const Cart = () => {
             <input type="submit" name="update" value="Update" className="secondary" />
             <input type="submit" name="checkout" value="Checkout" />
     )
+    </div>
 }
