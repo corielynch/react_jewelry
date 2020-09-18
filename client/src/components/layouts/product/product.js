@@ -34,10 +34,11 @@ const Product = ({product}) => {
     <Card.Img variant="top" src="holder.js/100px160" fluid />
     <Card.Body>
       <Card.Title>{product.name}</Card.Title>
-      <Card.Text></Card.Text>
+      <Card.Text>{product.price}</Card.Text>
+      <Card.Text>{product.tag}</Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">product.price</small>
+      <Button variant="warning">Buy Now</Button>
     </Card.Footer>
   </Card>
   
