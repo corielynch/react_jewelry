@@ -6,12 +6,14 @@ module.exports = {
   productsAll: function (req, res) {
 
     db.products.findAll({}).then((results) => {
-      return res.json(results);
+      return res.json(results)
+      .catch(err => res.status(422).json(err));
     })
   },
   createProduct: function(req,res){
     db.products.create(req.body).then(results => {
       res.json(results)
+      .catch(err => res.status(422).json(err));
     })
   }, 
   updateProduct: function(req,res){
@@ -24,6 +26,7 @@ module.exports = {
       }
     }).then(results => {
       res.json(results)
+      .catch(err => res.status(422).json(err));
     })
   },
   deleteProduct: function(req,res){
@@ -34,6 +37,7 @@ module.exports = {
       }
     }).then(results => {
       res.json(results)
+      .catch(err => res.status(422).json(err));
     })
   }
 
