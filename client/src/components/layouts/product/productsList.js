@@ -23,7 +23,7 @@ async fetchData() {
        return (
        <div>
         {
-           this.products.map(( product ) => <Product title={this.state.product}  />)
+           this.state.products.map(( product ) => <Product product={product}  />)
         }
        </div>
     

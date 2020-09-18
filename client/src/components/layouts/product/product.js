@@ -1,49 +1,28 @@
 import React from 'react';
 import './product.css'
+import ProductsList from './productsList';
 
 
 
-const Product = (props) => {
-//  class Product extends React.Component {
-//    constructor(props) {
-//      super(props);
-//      this.state = {
-//        title: props.title,
-//        tags: props.tags,
-//        price: props.price,
-//        handle: props.handle,
-//        img: props.img_src,
-//        key: props.id
-
-//      }
- 
-  // const Product = (props) => {
-
-//     const title = props.products.map( products => {
-//       return products.title
-//     })
-//     const image = props.products.map ( products => {
-//       return products.img_src
-//     })
-// console.log(image)
-// render() {
+const Product = ({product}) => {
+  
     return (
       <div>
         <div className="container">
          <div className="wrapper"> </div>
-            <span className="price">{props.price}</span>
+            <span className="price">{product.price}</span>
                 <div className="image">
-                  <img src={props.img} alt={props.handle}></img>
+                  <img src={product.img_src} alt={product.handle}></img>
                 </div>
                 <div className="card-content">
                   <div className="wrapper">
-                    {/* <div className="title">{props.title}</div>  */}
-                      {/* <p>{title}</p>  */}
-                        <span className="price">{props.price}</span> 
+                    <div className="title">{product.title}</div>  
+                      <p>{product.title}</p> 
+                        <span className="price">{product.price}</span> 
                           <div className="content tag">
-                            <div className="name tag-name">Tag</div>
+                            <div className="name tag-name">{product.tag}</div>
                               <div className="size-value">
-                                <span className="category">Category</span>
+                                <span className="category">{product.tag}</span>
                               </div>
                             </div>
                           </div>
