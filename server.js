@@ -13,6 +13,10 @@ app.use(express.static("client/public"));
 app.use(require("./routes/products.js"));
 app.use(require("./routes/checkout-routes.js"));
 
+app.get("/", function(req, res) {
+  res.json(path.join(__dirname, "public/index.html"));
+});
+
 
 const { QueryTypes } = require('sequelize');
 db.sequelize.sync({force: false}).then(function() {
