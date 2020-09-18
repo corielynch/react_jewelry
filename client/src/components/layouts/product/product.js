@@ -5,7 +5,7 @@ import './product.css'
 
 
 const Product = ({product}) => {
-  
+    const id= document.location + product.id + product.handle
     return (
       <div>
         <div className="container">
@@ -24,7 +24,7 @@ const Product = ({product}) => {
                               <div className="size-value">
                                 <span className="category">{product.tag}</span>
                               </div>
-                              <button><a href='https://google.com' alt='Broken Link'>Buy Now</a></button>
+                              <button><a href={id}>Buy Now</a></button>
                             </div>
                           </div>
                       </div>
