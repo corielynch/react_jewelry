@@ -10,7 +10,7 @@ import Faq from './pages/Faq';
 //import Account from './pages/Account';
 import Navbar from './layouts/nav/Navbar'
 import Footer from './layouts/footer/Footer';
-import Contact from './layouts/contact/contact'
+import ContactForm from './layouts/contact/contact';
 
 
 class App extends React.Component {
@@ -20,7 +20,8 @@ class App extends React.Component {
                 <div className="content-wrap">
                 <Router>
                     <Header />
-                    <Navbar />  
+                    <Navbar /> 
+                    <ContactForm /> 
                     <Switch>
                         <Route path='/' exact component={Shop} />
                         <Route path='/Home' exact component={Home} />

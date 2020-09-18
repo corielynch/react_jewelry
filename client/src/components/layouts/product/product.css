@@ -24,7 +24,7 @@
   }
   .container:hover{
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
-  }
+  } 
   .container .image{
     position: absolute;
     top: 0;
@@ -38,9 +38,9 @@
     object-fit: cover;
     transition: all 0.3s ease;
   }
-  .container:hover .image img{
+   .container:hover .image img{
     transform: scale(1.1);
-  }
+  } 
   .container .card-content{
     position: relative;
     height: 100%;
@@ -57,7 +57,7 @@
   }
   .container:hover .card-content .wrapper{
     bottom: 0px;
-  }
+  } 
   .wrapper .title{
     font-size: 22px;
     font-weight: 500;
