@@ -21,7 +21,5 @@ CREATE TABLE checkout (
     FOREIGN KEY (products_id) REFERENCES products(id)
 );
 
-
-
 SELECT * FROM products;
 SELECT * FROM checkout;
