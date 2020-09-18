@@ -32,6 +32,7 @@ class App extends React.Component {
                         {/* <Route path='/Header' exact component={Header} /> */}
                         <Route path='/Contact' exact component={Contact} />
                         <Route path='/Faq' exact component={Faq} />
+                        <Route path='/Products/:id' component={shop} />
                        {/* <Route path='/Account' exact component={Account} /> */}
                        </Switch>
                     <Footer /> 
