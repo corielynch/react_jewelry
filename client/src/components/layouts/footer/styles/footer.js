@@ -1,4 +1,4 @@
-.Container {
+Container {
     padding: 80px 60px;
     background: white;
 
@@ -7,7 +7,7 @@
   }
 }
 
-.Wrapper {
+Wrapper {
     display: flex;
     flex-direction: column;
     justify-content:center;
