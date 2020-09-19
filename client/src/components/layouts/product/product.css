@@ -115,7 +115,7 @@
     border-radius: 50%;
     color: #fff;
     cursor: pointer;
-    position: relative; */
+    position: relative; 
  }
   .content .colour-value span.white{
     background: lightgrey;
@@ -144,7 +144,7 @@
     border-color: #EAA523;
   }
 .wrapper .btns{
-   display: flex; */
+   display: flex; 
    height: 80px;
     width: 100%;
     align-items: center;
