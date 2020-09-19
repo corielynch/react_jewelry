@@ -6,8 +6,6 @@ import About from './pages/About';
 import Press from './pages/Press';
 import Lookbook from './pages/Lookbook';
 import Header from './layouts/header/header';
-// import FAQ from './pages/faq';
-// import Account from './pages/account';
 import Contact from './layouts/contact/contact'
 import Faq from './pages/Faq';
 //import Account from './pages/Account';
