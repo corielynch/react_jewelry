@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-
+//Sequelize connection
 const { QueryTypes } = require('sequelize');
 db.sequelize.sync({ force: false }).then(function () {
   app.listen(PORT, function () {
