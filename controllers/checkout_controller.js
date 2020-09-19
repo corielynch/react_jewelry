@@ -5,7 +5,7 @@ module.exports = {
         db.checkout.create(req.body).then(results => {
             console.log(results)
             res.json(results)
-            .catch(err => res.status(422).json(err));
         })
+        .catch(err => res.status(422).json(err));
     }
 }
