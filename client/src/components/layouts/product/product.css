@@ -1,4 +1,4 @@
- *{
+ /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -104,7 +104,7 @@
     background: #456ABD;
     color: #fff;
   }  */
-  .content .colour-value{
+  /* .content .colour-value{
     width: 30%;
     display: flex;
     margin: 10px 0;
@@ -116,8 +116,8 @@
     border-radius: 50%;
     color: #fff;
     cursor: pointer;
-    position: relative;
-  }
+    position: relative; */
+  /* }
   .content .colour-value span.white{
     background: lightgrey;
   }
@@ -137,13 +137,13 @@
     box-sizing: border-box;
     border: 2px solid whitesmoke;
     border-radius: 50%;
-  }
-  .content .colour-value span.white.active:after{
+  } */
+  /* .content .colour-value span.white.active:after{
     border-color: lightgrey;
   }
   .content .colour-value span.yellow.active:after{
     border-color: #EAA523;
-  }
+  } */
 /*  .wrapper .btns{
     display: flex;
     height: 80px;
@@ -164,4 +164,4 @@
     text-transform: uppercase;
     cursor: pointer;
   }
-  */
+  */ 

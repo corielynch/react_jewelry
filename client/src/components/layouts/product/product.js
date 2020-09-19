@@ -1,57 +1,23 @@
-import React from 'react';
-import './product.css'
+// import React from 'react';
+// import {
+//   Card, CardImg, CardText, CardBody,
+//   CardTitle, CardSubtitle, Button
+// } from 'reactstrap';
 
-// Simple card container to hold product information //
-const Product = () => {
-  return (
-   <CardDeck>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" fluid />
-    <Card.Body>
-      <Card.Title>{product.name}</Card.Title>
-      <Card.Text>{product.price}</Card.Text>
-      <Card.Text>{product.tag}</Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <Button variant="warning">Buy Now</Button>
-    </Card.Footer>
-  </Card>
-  
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" fluid />
-    <Card.Body>
-      <Card.Title>{product.name}</Card.Title>
-      <Card.Text>
-        {product.description}
-      </Card.Text>
-     <Button variant="warning">Buy Now</Button>
-    </Card.Body>
-  </Card>
-  
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" fluid />
-    <Card.Body>
-      <Card.Title>{product.name}</Card.Title>
-      <Card.Description>
-         </Card.Description>
-    </Card.Body>
-    <Card.Footer>
-       <Form.Group as={Row}>
-    <Col sm={{ span: 10, offset: 2 }}>
-      <Button variant="warning">Buy Now</Button>
-    </Col>
-  </Form.Group>
-        <Button animated='vertical'>
-      <Button.Content hidden>Shop</Button.Content>
-      <Button.Content visible>
-        <Icon name='shop' />
-      </Button.Content>
-    </Card.Footer>
-  </Card>
-</CardDeck>
+// const Cart = () => {
+//   return (
+//     <div>
+//       <Card>
+//         <CardImg top width="100%" src="'../../assets/mona.png" alt="Card image cap" />
+//         <CardBody>
+//           <CardTitle>Card title</CardTitle>
+//           <CardSubtitle>Card subtitle</CardSubtitle>
+//           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+//           <Button variant="warning">Buy Now</Button>
+//         </CardBody>
+//       </Card>
+//     </div>
+//   );
+// };
 
-    );
-}
-
-export default Product;
-
+// export default Cart;

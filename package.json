@@ -25,6 +25,7 @@
     "csvtojson": "^2.0.10",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
+    "react-native-paper": "^4.1.0",
     "react-responsive": "^8.1.0",
     "sequelize": "^6.3.5"
   }

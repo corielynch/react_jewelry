@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => (
     <footer className="footer">
-    <p className="flow-text">MonaAssemi Jewelry &copy; since 2020 </p>
+    <p className="flow-text fluid">  Trademark | Mona Assemi &copy; since 2020 | All Rights Reserved </p>
   </footer>
 );
 
