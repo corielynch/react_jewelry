@@ -1,9 +1,7 @@
 import React from 'react';
 import './product.css'
-// import ProductsList from './productsList';
 
-
-
+// Product component renders a single product card from the productlist component //
 const Product = ({product}) => {
   
     return (
@@ -31,6 +29,5 @@ const Product = ({product}) => {
                   </div>
     );
 }
-
 export default Product;
 
