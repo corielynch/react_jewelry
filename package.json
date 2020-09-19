@@ -1,30 +1,29 @@
 {
-  "name": "react_jewelry",
-  "homepage": "https://powerful-badlands-14420.herokuapp.com/",
+  "name": "jewelry",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "=12"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "client": "cd client && npm start",
-    "dev": "concurrently -n ‘server,client’ \"nodemon server.js\" \"npm run client\""
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/corielynch/react_jewelry.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/corielynch/react_jewelry/issues"
+    "type": "git"
   },
   "dependencies": {
     "axios": "^0.20.0",
     "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
     "react-responsive": "^8.1.0",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "serve": "^11.3.2"
   }
 }
