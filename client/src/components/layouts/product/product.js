@@ -2,12 +2,14 @@ import React from 'react';
 import './product.css'
 
 // Simple card container to hold product information //
-const Product = () => {
+const Product = ({product}) => {
+  const id= document.location + product.id
   return (
     <div>
       <div className="container">
+        <div className= "wrapper"></div>
         <div className="image">
-          <img src="{product.img.src}" alt="{product description}"></img>
+          <img src="{product.img_src}" alt="{product description}"></img>
         </div>
         <div className="card-content">
           <div className="wrapper">
