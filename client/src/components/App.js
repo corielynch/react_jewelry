@@ -11,8 +11,9 @@ import Header from './layouts/header/header';
 import Contact from './layouts/contact/contact'
 import Faq from './pages/Faq';
 //import Account from './pages/Account';
-import Navbar from './layouts/nav/Navbar'
+import Navbar from './layouts/navbar/Navbar'
 import Footer from './layouts/footer/Footer';
+import Contact from './layouts/contact/contact';
 
 
 class App extends React.Component {
