@@ -24,6 +24,19 @@
   padding: 0.5rem 1rem;
 }
 
+.nav-links-mobile {
+  display: block;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  width: 80%;
+  background: white;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 .nav-links:hover {
   background-color: lightgray;
   border-radius: 4px;
@@ -42,6 +55,16 @@
   .NavbarItem {
       position: relative;
   }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
 
   .nav-menu {
       display: flex;

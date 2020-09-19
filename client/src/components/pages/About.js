@@ -6,8 +6,9 @@ const About = () => {
     <div>
       <Card>
       <CardTitle>About</CardTitle>
-        <CardImg top width="40%" src="//cdn.shopify.com/s/files/1/0755/2497/files/FullSizeRender_1_3b1801a0-2497-4331-a584-8df4f564cbab_large.jpg?8826107210261599233" alt="Card image cap" />
-        <CardBody>
+      <CardImg top width="50%" src="https://cdn.shopify.com/s/files/1/0755/2497/files/b_13.jpg?4037369015253632147" alt="Card image cap" />
+       <CardImg top width="50%" src="https://cdn.shopify.com/s/files/1/0755/2497/files/pro-08.jpg?351932033806436885" alt="Card image cap" />
+      <CardBody>
           <CardText> Descended from 2500 years of jewelry addicts, the Persian-American designer, Mona Assemi's namesake brand was founded in Washington DC. Currently residing in New York City, Mona's work combines sculptural clean lines, 
         sumptuous crystals, and elegant metals. She creates a liquid dripping aesthetic frozen in time 
         in the jewelry with an array of formulated acids for her signature ACIDS line. The unusual 14kt plated, 

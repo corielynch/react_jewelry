@@ -2,7 +2,7 @@
 export const NavbarItems = [
     {
         title: 'Home',
-        url: '/',
+        url: '/Home',
         cName: 'nav-links'
     },
     {
@@ -12,7 +12,7 @@ export const NavbarItems = [
     },
     {
         title: 'Shop',
-        url: '/Shop',
+        url: '/',
         cName: 'nav-links'
     },
     {

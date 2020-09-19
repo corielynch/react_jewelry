@@ -7,7 +7,8 @@ const Cart = () => {
     <div>
       <Card>
       <CardTitle>Contact</CardTitle>
-        <CardImg top width="30%" src="https://cdn.shopify.com/s/files/1/0755/2497/files/IMG_7912_240x240.jpg?v=1596658535" alt="Card image cap" />
+      <CardImg top width="50%" src="https://cdn.shopify.com/s/files/1/0755/2497/files/pro-02-Sa.jpg?9755218888888724393" alt="Card image cap" />
+        <CardImg top width="50%" src="https://cdn.shopify.com/s/files/1/0755/2497/files/pro-03-Sa.jpg?17436661442076790054" alt="Card image cap" />
         <CardBody>
           <CardSubtitle>Love hearing from you</CardSubtitle>
           <CardText>Mona likes to always do what's progressive as an emerging designer.
