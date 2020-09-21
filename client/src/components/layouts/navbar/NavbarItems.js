@@ -8,7 +8,7 @@ export const NavbarItems = [
     {
         title: 'About',
         url: '/About',
-        cName: 'nav-links'
+        cName: 'nav-links-mobile'
     },
     {
         title: 'Shop',
