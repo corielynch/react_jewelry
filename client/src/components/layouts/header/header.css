@@ -1,9 +1,22 @@
-.header-class {
-   display: flex;
+
+@media screen and (max-width: 500px) {
+  .header-search-form , .header-search-input, img, input[type=text] {
+    display: block;
+    text-align: left;
+    width: 75%;
+    margin-left: 71px;
+    padding: 0px;
+  }
 }
 
-.header-logo {
+ /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+ @media screen and (max-width: 1280px) {
+  .header-search-form , .header-search-input, img, input[type=text] {
+    float: none;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
+    width: 75%;
+    margin-left: 71px;
+    padding: 0px;
+  }
  }
