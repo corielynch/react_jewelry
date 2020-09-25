@@ -136,7 +136,7 @@
     box-sizing: border-box;
     border: 2px solid whitesmoke;
     border-radius: 50%;
-  } */
+  } 
  .content .colour-value span.white.active:after{
     border-color: lightgrey;
   }
