@@ -1,8 +1,15 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     align-items: center;
-  }
+  } */
+header {  
+  background-color: white;  
+  color: black;  
+  padding: 40px;  
+  font-family: Poppins;  
+  text-align: center;  
+}
 
