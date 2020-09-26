@@ -2,13 +2,13 @@ var express = require('express');
 var router  = express.Router();
 var products_controller = require('../controllers/products_controller');
 
-router.get('/api/search-products', products_controller.productsAll);
+router.get('/search-products', products_controller.productsAll);
 
-router.post('/api/search-products', products_controller.createProduct)
+router.post('/search-products', products_controller.createProduct)
 
-router.put('/api/search-products/:id', products_controller.updateProduct)
+router.put('/search-products/:id', products_controller.updateProduct)
 
-router.delete('/api/search-products/:id', products_controller.deleteProduct)
+router.delete('/search-products/:id', products_controller.deleteProduct)
 
 module.exports = router;
 

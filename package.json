@@ -23,7 +23,10 @@
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
     "react-native-paper": "^4.1.0",
+    "react-redux": "^7.2.1",
     "react-responsive": "^8.1.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
     "sequelize": "^6.3.5",
     "serve": "^11.3.2"
   }

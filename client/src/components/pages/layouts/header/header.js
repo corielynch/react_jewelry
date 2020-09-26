@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 //import Searchbar from '../searchbar/searchbar'
-import Logo from '../../../assets/logo.png';
+import Logo from '../../../../assets/logo.png';
 import './header.css'
 
 class Header extends Component {
