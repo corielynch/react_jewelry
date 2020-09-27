@@ -5,12 +5,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Press from './pages/Press';
 import Lookbook from './pages/Lookbook';
-import Header from './layouts/header/header';
-import Contact from './layouts/contact/contact'
+import Header from './pages/layouts/header/header';
+import Contact from './pages/layouts/contact/contact'
 import Faq from './pages/Faq';
 //import Account from './pages/Account';
-import Navbar from './layouts/navbar/Navbar'
-import Footer from './layouts/footer/Footer';
+import Navbar from './pages/layouts/navbar/Navbar'
+import Footer from './pages/layouts/footer/Footer';
 
 
 class App extends React.Component {

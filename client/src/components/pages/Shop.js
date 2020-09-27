@@ -1,6 +1,6 @@
 import React  from 'react';
 // import Product from '../layouts/product/product'
-import ProductsList from '../layouts/product/productsList'
+import ProductsList from './layouts/product/productsList'
 
 const Shop = (props) => {
 // render(){

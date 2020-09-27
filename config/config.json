@@ -2,7 +2,7 @@
   "development":
     {
         "username": "root",
-        "password": "P@$$word",
+        "password": "L@kers51",
         "database": "jewelry_db",
         "host": "127.0.0.1",
         "dialect": "mysql"

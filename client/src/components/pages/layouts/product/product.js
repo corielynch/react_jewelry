@@ -1,5 +1,18 @@
 import React from 'react';
+
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button
+} from 'reactstrap';
+
+// import {
+//   Card, CardImg, CardText, CardBody,
+//   CardTitle, CardSubtitle, Button
+// } from 'reactstrap';
+
+
 import './product.css';
+
 
 // Product component renders a single product card from the productlist component //
 const Product = ({product}) => {
