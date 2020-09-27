@@ -1,8 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchProducts } from '../../../../actions'
-import Product from './product'
-import getProducts from '../../../../apis/productsDB'
 import './product.css'
 
 
@@ -52,35 +50,3 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps, { fetchProducts})(ProductsList)
-
-
-
-// class ProductsList extends React.Component {
-//    state = { products: [] };
-//    componentDidMount() {
-//     this.fetchData()
-//     .then(response => {
-//        this.setState({products: response.data})
-    
-//     })
-// }
-// async fetchData() {
-//     let response = await getProducts()
-//     return response;
-//    }
-//    render(){
-//        return (
-//        <div>
-//         {
-//            this.state.products.map(( product ) => <Product product={product}  />)
-//         }
-//        </div>
-//        )
-//    }
-
-// }
-
-// export default ProductsList;
- 
-
-
