@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody,
-  CardTitle } from 'reactstrap';
+import { Card, CardImg, CardTitle } from 'reactstrap';
 
 const Faq = () => {
   return (
