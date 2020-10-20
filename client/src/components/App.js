@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Shop from './pages/Shop';
 import Home from './pages/Home';
@@ -13,7 +13,7 @@ import Navbar from './pages/layouts/navbar/Navbar'
 import Footer from './pages/layouts/footer/Footer';
 
 
-class App extends React.Component {
+class App extends Component {
     render(){
         return (
             <div className="page-containter">
