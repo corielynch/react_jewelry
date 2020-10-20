@@ -9,7 +9,7 @@ import Header from './pages/layouts/header/header';
 import Contact from './pages/layouts/contact/contact'
 import Faq from './pages/Faq';
 //import Account from './pages/Account';
-import Navbar from './pages/layouts/navbar/Navbar'
+import Nav from './pages/layouts/navbar/Nav'
 import Footer from './pages/layouts/footer/Footer';
 
 
@@ -20,7 +20,7 @@ class App extends Component {
                 <div className="content-wrap">
                 <Router>
                     <Header />
-                    <Navbar /> 
+                    <Nav /> 
                     <Switch>
                         <Route path='/' exact component={Shop} />
                         <Route path='/Home' exact component={Home} />
