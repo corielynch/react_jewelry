@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-    productsAllPath: '/search-products'
+    baseURL: 'http://localhost:3000'
 })
 
 
