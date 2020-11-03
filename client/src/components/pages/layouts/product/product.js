@@ -4,6 +4,7 @@ import './product.css';
 
 // Product component renders a single product card from the productlist component //
 const Product = ({product}) => {
+  console.log("This is product" + product)
   
     return (
       <div>

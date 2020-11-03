@@ -3,7 +3,6 @@ import React  from 'react';
 import ProductsList from './layouts/product/productsList'
 
 const Shop = (props) => {
-        console.log(JSON.stringify(props))
         // render(){
         return (
                 <div>
