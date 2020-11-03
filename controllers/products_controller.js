@@ -8,7 +8,10 @@ module.exports = {
     db.products.findAll({}).then((results) => {
       return res.json(results)
 
-    }).catch(err => res.status(422).json(err));
+    }).catch(err => {
+      console.error(err);
+      res.status(422).json(err)
+    });
   },
   createProduct: function (req, res) {
     db.products.create(req.body).then(results => {

@@ -11,21 +11,6 @@ export const NavbarItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Shop',
-        url: '/',
-        cName: 'nav-links'
-    },
-    {
-        title: 'Lookbook',
-        url: '/Lookbook',
-        cName: 'nav-links'
-    },
-    {
-        title: 'Contact',
-        url: '/Contact',
-        cName: 'nav-links'
-    },
-    {
         title: 'Press',
         url: '/Press',
         cName: 'nav-links'
@@ -35,5 +20,14 @@ export const NavbarItems = [
         url: '/Faq',
         cName: 'nav-links'
     },
-
+    {
+        title: 'Shop',
+        url: '/',
+        cName: 'nav-links'
+    },
+    {
+        title: 'Contact',
+        url: '/Contact',
+        cName: 'nav-links'
+    },
 ]

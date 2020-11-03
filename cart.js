@@ -11,7 +11,7 @@
 //         </div>
 
 //         <div className="mainContent" />
-//         <form action="/cart" method="post" />
+//         <form action="/" method="post" />
 //         <table className="cartItems" />
 //         <div>
 //             <>

@@ -13,6 +13,9 @@ module.exports = function(sequelize, DataTypes) {
     );
     return checkout;
   };
+
+
+  // send a request to backend from frontend. 
   
   
   

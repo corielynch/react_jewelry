@@ -13,7 +13,6 @@ class Navigation extends React.Component {
             return (
                 <nav className="NavbarItem">
                     <div className="menu-icon" onClick={this.handleClick}>
-                        <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
                     <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                         {NavbarItems.map((item, index) => {
@@ -25,8 +24,10 @@ class Navigation extends React.Component {
                                 </li>
                             )
                         })}
+                        <li>
+                            <a className="nav-links cart" href="/Cart"><img src="https://img.icons8.com/emoji/48/000000/shopping-cart-emoji.png"/></a>
+                        </li>
                     </ul>
-                    <div className="cart hide"><i className="fas fa-shopping-cart"></i>0</div>
                 </nav>
             )
         }

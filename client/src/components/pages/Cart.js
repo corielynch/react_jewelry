@@ -1,21 +1,33 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { fetchProducts } from '../../actions'
 
 //create a stateless component to display the shopping cart items
 class Cart extends React.Component {
-
-    state
+    componentDidMount() {
+       this.props.fetchProducts()
+    }
+    // state
     //render individual item
     render() {
+        console.log(this.props.products);
         return (
             <div key={this.props.index} className="Cart">
-                <figure>
-                    <img src={this.props.item.Img.src} alt={this.props.item.Img.name} id={this.props.index} />
+                {
+                    this.props.products && 
+                    Object.entries(this.props.cart).map(([id, count]) => {
+                        const product = this.props.products.find((product) => id === product.id);
+                        return <h1>{product.title}</h1>
+                    })
+                }
+                {/* <figure>
+                    <img src={this.props.item.img_src.price} alt={this.props.item.img_src.name} id={this.props.index} />
                 </figure>
                     <table className="ProductInformation">
                     <tbody>
                         <tr>
                             <td><b>Image Description: </b></td>
-                            <td>{this.props.item.Img.description}</td>
+                            <td>{this.props.item.img_src.description}</td>
                         </tr>
                         <tr>
                             <td><b>Size:</b></td>
@@ -38,11 +50,23 @@ class Cart extends React.Component {
                             <td>${this.state.total}.00</td>
                         </tr>
                     </tbody>
-                    </table>
+                    </table> */}
+                <div className="cartCheckout">
+                    <p className="cartPrice"><span className="money"></span></p>
+                    <p className="cartMessage"><em>Taxes and shipping not included</em></p>
+
+                    <input type="submit" name="update" value="Update" className="secondary" />
+                    <input type="submit" name="checkout" value="Checkout" />
+                </div>
             </div>
         )
     }
 }
 
-export default Cart;
-    
+
+const mapStateToProps = (state) => {
+    return { products: state.products }
+ }
+ 
+ export default connect(mapStateToProps, { fetchProducts })(Cart)
+
